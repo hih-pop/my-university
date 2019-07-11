@@ -17,10 +17,10 @@ class RegisterView(View):
 
         return render(request,'register.html')
     def post(self,request):
-        username = request.POST['user_name']
-        password = request.POST['pwd']
-        password2 = request.POST['cpwd']
-        mobile = request.POST['phone']
+        username = request.POST['username']
+        password = request.POST['password']
+        password2 = request.POST['password2']
+        mobile = request.POST['mobile']
         allow = request.POST['allow']
         # 判断参数是否齐全
         if not all([username,password,password2,mobile,allow]):
@@ -52,6 +52,12 @@ class UsernameCountView(View):
     def get(self,request,username):
         count = User.objects.filter(username=username).count()
         return http.JsonResponse({'code':0, 'errmsg': 'OK', 'count': count})
+
+
+class MobileCountView(View):
+    def get(self,request,mobile):
+        count = User.objects.filter(mobile=mobile).count()
+        return http.JsonResponse({'code':0,'errmsg':'OK','count':count})
 
 
 

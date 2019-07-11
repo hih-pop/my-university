@@ -629,3 +629,11 @@ WARNING 2019-07-11 16:33:06,664 base 152 Not Found: /search/
 WARNING 2019-07-11 16:33:06,665 basehttp 124 "GET /search/?q= HTTP/1.1" 404 2279
 WARNING 2019-07-11 16:33:09,951 base 152 Not Found: /search/
 WARNING 2019-07-11 16:33:09,954 basehttp 124 "GET /search/?q= HTTP/1.1" 404 2279
+INFO 2019-07-11 17:29:32,121 basehttp 124 "GET /register HTTP/1.1" 301 0
+INFO 2019-07-11 17:29:32,193 basehttp 124 "GET /register/ HTTP/1.1" 200 4091
+WARNING 2019-07-11 17:29:32,667 base 152 Not Found: /favicon.ico
+WARNING 2019-07-11 17:29:32,669 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 2675
+INFO 2019-07-11 17:29:42,352 basehttp 124 "GET /usernames/11111/count/ HTTP/1.1" 200 39
+INFO 2019-07-11 17:29:55,523 basehttp 124 "GET /usernames/11111/count/ HTTP/1.1" 200 39
+INFO 2019-07-11 17:30:06,666 basehttp 124 "GET /usernames/1111111/count/ HTTP/1.1" 200 39
+INFO 2019-07-11 17:30:22,523 basehttp 124 "GET /mobiles/13411111111/count/ HTTP/1.1" 200 39

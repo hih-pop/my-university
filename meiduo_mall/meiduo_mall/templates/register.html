@@ -33,22 +33,22 @@
 				<ul>
 					<li>
 						<label>用户名:</label>
-						<input v-model="username" @blur="check_username" type="text" name="user_name" id="user_name">
+						<input v-model="username" @blur="check_username" type="text" name="username" id="user_name">
 						<span v-show="error_name" class="error_tip">请输入5-20个字符的用户</span>
 					</li>					
 					<li>
 						<label>密码:</label>
-						<input v-model="password" @blur="check_pwd" type="password" name="pwd" id="pwd">
+						<input v-model="password" @blur="check_pwd" type="password" name="password" id="pwd">
 						<span v-show="error_password" class="error_tip">请输入8-20位的密码</span>
 					</li>
 					<li>
 						<label>确认密码:</label>
-						<input v-model="password2" @blur="check_cpwd" type="password" name="cpwd" id="cpwd">
+						<input v-model="password2" @blur="check_cpwd" type="password" name="password2" id="cpwd">
 						<span v-show="error_check_password" class="error_tip">两次输入的密码不一致</span>
 					</li>
 					<li>
 						<label>手机号:</label>
-						<input v-model="mobile" @blur="check_phone" type="text" name="phone" id="phone">
+						<input v-model="mobile" @blur="check_phone" type="text" name="mobile" id="phone">
 						<span v-show="error_phone" class="error_tip">请输入正确的手机号码</span>
 					</li>
 					<li>
