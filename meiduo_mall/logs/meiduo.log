@@ -1,0 +1,631 @@
+INFO 2019-07-11 11:13:40,391 basehttp 124 "GET /register/ HTTP/1.1" 200 3690
+INFO 2019-07-11 11:13:40,457 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2019-07-11 11:13:40,461 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2019-07-11 11:13:40,470 basehttp 124 "GET /static/js/host.js HTTP/1.1" 200 75
+INFO 2019-07-11 11:13:40,471 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2019-07-11 11:13:40,472 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2019-07-11 11:13:40,475 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2019-07-11 11:13:40,482 basehttp 124 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2019-07-11 11:13:40,493 basehttp 124 "GET /static/js/register.js HTTP/1.1" 200 15584
+INFO 2019-07-11 11:13:40,576 basehttp 124 "GET /static/images/pic_code.jpg HTTP/1.1" 200 4507
+INFO 2019-07-11 11:13:40,820 basehttp 124 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2019-07-11 11:13:40,823 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2019-07-11 11:13:40,827 basehttp 124 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+WARNING 2019-07-11 11:13:51,376 base 152 Not Found: /usernames/nngngffg/count/
+WARNING 2019-07-11 11:13:51,377 basehttp 124 "GET /usernames/nngngffg/count/ HTTP/1.1" 404 2168
+WARNING 2019-07-11 12:38:39,804 base 152 Not Found: /
+WARNING 2019-07-11 12:38:39,805 basehttp 124 "GET / HTTP/1.1" 404 2075
+INFO 2019-07-11 12:38:54,644 basehttp 124 "GET /register/ HTTP/1.1" 200 3690
+WARNING 2019-07-11 12:39:09,011 base 152 Not Found: /usernames/zxassdd/count/
+WARNING 2019-07-11 12:39:09,012 basehttp 124 "GET /usernames/zxassdd/count/ HTTP/1.1" 404 2165
+WARNING 2019-07-11 12:39:21,536 csrf 160 Forbidden (CSRF token missing or incorrect.): /register/
+WARNING 2019-07-11 12:39:21,568 basehttp 124 "POST /register/ HTTP/1.1" 403 2502
+INFO 2019-07-11 12:42:52,995 basehttp 124 "GET /register/ HTTP/1.1" 200 3756
+INFO 2019-07-11 12:42:53,039 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-07-11 12:42:53,045 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-07-11 12:42:53,047 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-07-11 12:42:53,049 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-07-11 12:42:53,051 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-07-11 12:42:53,053 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-07-11 12:42:53,054 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-07-11 12:42:53,063 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-07-11 12:42:53,093 basehttp 124 "GET /static/images/pic_code.jpg HTTP/1.1" 304 0
+INFO 2019-07-11 12:42:56,885 basehttp 124 "GET /register/ HTTP/1.1" 200 3756
+INFO 2019-07-11 12:42:56,919 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-07-11 12:42:56,927 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-07-11 12:42:56,929 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-07-11 12:42:56,930 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-07-11 12:42:56,937 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-07-11 12:42:56,942 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-07-11 12:42:56,949 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-07-11 12:42:56,955 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-07-11 12:42:56,963 basehttp 124 "GET /static/images/pic_code.jpg HTTP/1.1" 304 0
+INFO 2019-07-11 12:42:58,155 basehttp 124 "GET /register/ HTTP/1.1" 200 3756
+INFO 2019-07-11 12:42:58,201 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-07-11 12:42:58,205 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-07-11 12:42:58,208 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-07-11 12:42:58,212 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-07-11 12:42:58,215 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-07-11 12:42:58,220 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-07-11 12:42:58,248 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-07-11 12:42:58,258 basehttp 124 "GET /static/images/pic_code.jpg HTTP/1.1" 304 0
+INFO 2019-07-11 12:42:58,261 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-07-11 12:43:10,587 basehttp 124 "GET /register/ HTTP/1.1" 200 3756
+INFO 2019-07-11 12:43:10,636 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-07-11 12:43:10,644 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-07-11 12:43:10,646 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-07-11 12:43:10,646 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-07-11 12:43:10,649 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-07-11 12:43:10,670 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-07-11 12:43:10,681 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-07-11 12:43:10,718 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-07-11 12:43:10,722 basehttp 124 "GET /static/images/pic_code.jpg HTTP/1.1" 304 0
+INFO 2019-07-11 13:01:36,893 basehttp 124 "GET /register/ HTTP/1.1" 200 4078
+INFO 2019-07-11 13:01:37,009 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-07-11 13:01:37,038 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-07-11 13:01:37,042 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-07-11 13:01:37,046 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-07-11 13:01:37,047 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-07-11 13:01:37,069 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-07-11 13:01:37,116 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-07-11 13:01:37,120 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-07-11 13:01:37,135 basehttp 124 "GET /static/images/pic_code.jpg HTTP/1.1" 304 0
+WARNING 2019-07-11 13:02:10,983 csrf 160 Forbidden (CSRF token missing or incorrect.): /register/
+WARNING 2019-07-11 13:02:11,000 basehttp 124 "POST /register/ HTTP/1.1" 403 2502
+WARNING 2019-07-11 13:02:25,701 csrf 160 Forbidden (CSRF token missing or incorrect.): /register/
+WARNING 2019-07-11 13:02:25,706 basehttp 124 "POST /register/ HTTP/1.1" 403 2502
+WARNING 2019-07-11 13:02:30,251 csrf 160 Forbidden (CSRF token missing or incorrect.): /register/
+WARNING 2019-07-11 13:02:30,256 basehttp 124 "POST /register/ HTTP/1.1" 403 2502
+WARNING 2019-07-11 13:04:40,494 base 152 Not Found: /mobiles/15038131473/count/
+WARNING 2019-07-11 13:04:40,496 basehttp 124 "GET /mobiles/15038131473/count/ HTTP/1.1" 404 2171
+WARNING 2019-07-11 13:04:59,066 csrf 160 Forbidden (CSRF token missing or incorrect.): /register/
+WARNING 2019-07-11 13:04:59,073 basehttp 124 "POST /register/ HTTP/1.1" 403 2502
+ERROR 2019-07-11 13:05:51,875 exception 135 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/utils/datastructures.py", line 83, in __getitem__
+    list_ = super(MultiValueDict, self).__getitem__(key)
+KeyError: 'username'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/my-university/meiduo_mall/meiduo_mall/apps/users/views.py", line 17, in post
+    username = request.POST['username']
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/utils/datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+django.utils.datastructures.MultiValueDictKeyError: "'username'"
+ERROR 2019-07-11 13:05:52,043 basehttp 124 "POST /register/ HTTP/1.1" 500 91895
+ERROR 2019-07-11 13:06:16,358 exception 135 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/utils/datastructures.py", line 83, in __getitem__
+    list_ = super(MultiValueDict, self).__getitem__(key)
+KeyError: 'username'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/my-university/meiduo_mall/meiduo_mall/apps/users/views.py", line 17, in post
+    username = request.POST['username']
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/utils/datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+django.utils.datastructures.MultiValueDictKeyError: "'username'"
+ERROR 2019-07-11 13:06:16,489 basehttp 124 "POST /register/ HTTP/1.1" 500 92031
+ERROR 2019-07-11 13:06:42,372 exception 135 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/utils/datastructures.py", line 83, in __getitem__
+    list_ = super(MultiValueDict, self).__getitem__(key)
+KeyError: 'username'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/my-university/meiduo_mall/meiduo_mall/apps/users/views.py", line 17, in post
+    username = request.POST['username']
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/utils/datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+django.utils.datastructures.MultiValueDictKeyError: "'username'"
+ERROR 2019-07-11 13:06:42,511 basehttp 124 "POST /register/ HTTP/1.1" 500 92031
+WARNING 2019-07-11 13:06:56,305 base 152 Not Found: /
+WARNING 2019-07-11 13:06:56,322 basehttp 124 "GET / HTTP/1.1" 404 2075
+WARNING 2019-07-11 13:06:56,506 base 152 Not Found: /favicon.ico
+WARNING 2019-07-11 13:06:56,522 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 2126
+INFO 2019-07-11 13:07:18,711 basehttp 124 "GET /register/ HTTP/1.1" 200 4101
+INFO 2019-07-11 13:07:23,469 basehttp 124 "GET /static/login.html HTTP/1.1" 200 2629
+INFO 2019-07-11 13:07:23,599 basehttp 124 "GET /static/js/login.js HTTP/1.1" 200 5212
+INFO 2019-07-11 13:07:23,601 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 200 8466
+INFO 2019-07-11 13:07:23,711 basehttp 124 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+INFO 2019-07-11 13:07:23,729 basehttp 124 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+WARNING 2019-07-11 13:07:48,038 base 152 Not Found: /usernames/python/count/
+WARNING 2019-07-11 13:07:48,039 basehttp 124 "GET /usernames/python/count/ HTTP/1.1" 404 2162
+WARNING 2019-07-11 13:08:41,528 base 152 Not Found: /mobiles/15038131473/count/
+WARNING 2019-07-11 13:08:41,529 basehttp 124 "GET /mobiles/15038131473/count/ HTTP/1.1" 404 2171
+ERROR 2019-07-11 13:13:17,948 exception 135 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/utils/datastructures.py", line 83, in __getitem__
+    list_ = super(MultiValueDict, self).__getitem__(key)
+KeyError: 'username'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/my-university/meiduo_mall/meiduo_mall/apps/users/views.py", line 17, in post
+    username = request.POST['username']
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/utils/datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+django.utils.datastructures.MultiValueDictKeyError: "'username'"
+ERROR 2019-07-11 13:13:18,061 basehttp 124 "POST /register/ HTTP/1.1" 500 92019
+WARNING 2019-07-11 13:16:09,838 base 152 Not Found: /
+WARNING 2019-07-11 13:16:09,840 basehttp 124 "GET / HTTP/1.1" 404 2075
+INFO 2019-07-11 13:16:29,372 basehttp 124 "GET /register/ HTTP/1.1" 200 4106
+WARNING 2019-07-11 13:16:37,247 base 152 Not Found: /usernames/python/count/
+WARNING 2019-07-11 13:16:37,268 basehttp 124 "GET /usernames/python/count/ HTTP/1.1" 404 2162
+WARNING 2019-07-11 13:17:03,885 base 152 Not Found: /mobiles/15038131473/count/
+WARNING 2019-07-11 13:17:03,886 basehttp 124 "GET /mobiles/15038131473/count/ HTTP/1.1" 404 2171
+ERROR 2019-07-11 13:17:15,210 exception 135 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/utils/datastructures.py", line 83, in __getitem__
+    list_ = super(MultiValueDict, self).__getitem__(key)
+KeyError: 'password'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/my-university/meiduo_mall/meiduo_mall/apps/users/views.py", line 18, in post
+    password = request.POST['password']
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/utils/datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+django.utils.datastructures.MultiValueDictKeyError: "'password'"
+ERROR 2019-07-11 13:17:15,364 basehttp 124 "POST /register/ HTTP/1.1" 500 92240
+INFO 2019-07-11 13:18:46,506 basehttp 124 "GET /register/ HTTP/1.1" 200 4106
+WARNING 2019-07-11 13:18:58,132 base 152 Not Found: /usernames/python/count/
+WARNING 2019-07-11 13:18:58,134 basehttp 124 "GET /usernames/python/count/ HTTP/1.1" 404 2162
+WARNING 2019-07-11 13:19:55,673 base 152 Not Found: /mobiles/15038131473/count/
+WARNING 2019-07-11 13:19:55,675 basehttp 124 "GET /mobiles/15038131473/count/ HTTP/1.1" 404 2171
+ERROR 2019-07-11 13:20:01,139 exception 135 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/my-university/meiduo_mall/meiduo_mall/apps/users/views.py", line 21, in post
+    allow = request['allow']
+TypeError: 'WSGIRequest' object is not subscriptable
+ERROR 2019-07-11 13:20:01,229 basehttp 124 "POST /register/ HTTP/1.1" 500 83968
+INFO 2019-07-11 13:22:00,685 basehttp 124 "GET /register/ HTTP/1.1" 200 4106
+WARNING 2019-07-11 13:22:08,051 base 152 Not Found: /usernames/python/count/
+WARNING 2019-07-11 13:22:08,051 basehttp 124 "GET /usernames/python/count/ HTTP/1.1" 404 2162
+WARNING 2019-07-11 13:22:28,524 base 152 Not Found: /mobiles/15038131473/count/
+WARNING 2019-07-11 13:22:28,526 basehttp 124 "GET /mobiles/15038131473/count/ HTTP/1.1" 404 2171
+ERROR 2019-07-11 13:22:37,236 exception 135 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/my-university/meiduo_mall/meiduo_mall/apps/users/views.py", line 21, in post
+    allow = request['allow']
+TypeError: 'WSGIRequest' object is not subscriptable
+ERROR 2019-07-11 13:22:37,335 basehttp 124 "POST /register/ HTTP/1.1" 500 83968
+INFO 2019-07-11 13:30:49,128 basehttp 124 "GET /register/ HTTP/1.1" 200 4119
+WARNING 2019-07-11 13:30:52,613 base 152 Not Found: /usernames/python/count/
+WARNING 2019-07-11 13:30:52,615 basehttp 124 "GET /usernames/python/count/ HTTP/1.1" 404 2162
+WARNING 2019-07-11 13:31:06,242 base 152 Not Found: /mobiles/15038131473/count/
+WARNING 2019-07-11 13:31:06,244 basehttp 124 "GET /mobiles/15038131473/count/ HTTP/1.1" 404 2171
+ERROR 2019-07-11 13:31:10,469 exception 135 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/my-university/meiduo_mall/meiduo_mall/apps/users/views.py", line 21, in post
+    allow = request['allow']
+TypeError: 'WSGIRequest' object is not subscriptable
+ERROR 2019-07-11 13:31:10,581 basehttp 124 "POST /register/ HTTP/1.1" 500 83970
+INFO 2019-07-11 13:36:10,525 basehttp 124 "GET /register/ HTTP/1.1" 200 4107
+WARNING 2019-07-11 13:36:19,681 base 152 Not Found: /usernames/qwert/count/
+WARNING 2019-07-11 13:36:19,683 basehttp 124 "GET /usernames/qwert/count/ HTTP/1.1" 404 2159
+WARNING 2019-07-11 13:36:35,378 basehttp 124 "POST /register/ HTTP/1.1" 403 18
+WARNING 2019-07-11 13:36:51,163 base 152 Not Found: /usernames/111111/count/
+WARNING 2019-07-11 13:36:51,164 basehttp 124 "GET /usernames/111111/count/ HTTP/1.1" 404 2162
+WARNING 2019-07-11 13:36:59,816 base 152 Not Found: /mobiles/15038131473/count/
+WARNING 2019-07-11 13:36:59,817 basehttp 124 "GET /mobiles/15038131473/count/ HTTP/1.1" 404 2171
+WARNING 2019-07-11 13:37:03,024 basehttp 124 "POST /register/ HTTP/1.1" 403 30
+WARNING 2019-07-11 13:37:16,708 base 152 Not Found: /usernames/111111/count/
+WARNING 2019-07-11 13:37:16,709 basehttp 124 "GET /usernames/111111/count/ HTTP/1.1" 404 2162
+WARNING 2019-07-11 13:37:35,214 base 152 Not Found: /mobiles/15038131473/count/
+WARNING 2019-07-11 13:37:35,215 basehttp 124 "GET /mobiles/15038131473/count/ HTTP/1.1" 404 2171
+WARNING 2019-07-11 13:37:58,308 basehttp 124 "POST /register/ HTTP/1.1" 403 30
+INFO 2019-07-11 13:39:19,933 basehttp 124 "GET /register/ HTTP/1.1" 200 4107
+WARNING 2019-07-11 13:39:25,361 base 152 Not Found: /usernames/111111/count/
+WARNING 2019-07-11 13:39:25,363 basehttp 124 "GET /usernames/111111/count/ HTTP/1.1" 404 2162
+WARNING 2019-07-11 13:40:21,838 base 152 Not Found: /mobiles/15038131473/count/
+WARNING 2019-07-11 13:40:21,840 basehttp 124 "GET /mobiles/15038131473/count/ HTTP/1.1" 404 2171
+INFO 2019-07-11 13:40:26,966 basehttp 124 "POST /register/ HTTP/1.1" 200 33
+INFO 2019-07-11 14:08:18,639 basehttp 124 "GET / HTTP/1.1" 200 24706
+INFO 2019-07-11 14:08:18,803 basehttp 124 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2019-07-11 14:08:18,805 basehttp 124 "GET /static/js/index.js HTTP/1.1" 200 1727
+INFO 2019-07-11 14:08:18,814 basehttp 124 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2019-07-11 14:08:18,878 basehttp 124 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2019-07-11 14:08:18,891 basehttp 124 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2019-07-11 14:08:18,894 basehttp 124 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2019-07-11 14:08:18,904 basehttp 124 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2019-07-11 14:08:18,939 basehttp 124 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2019-07-11 14:08:18,969 basehttp 124 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2019-07-11 14:08:18,980 basehttp 124 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2019-07-11 14:08:18,990 basehttp 124 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2019-07-11 14:08:19,003 basehttp 124 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2019-07-11 14:08:19,004 basehttp 124 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2019-07-11 14:08:19,043 basehttp 124 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2019-07-11 14:08:19,059 basehttp 124 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2019-07-11 14:08:19,082 basehttp 124 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2019-07-11 14:08:19,094 basehttp 124 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2019-07-11 14:08:19,168 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 200 7740
+WARNING 2019-07-11 14:08:20,241 base 152 Not Found: /carts/simple/
+WARNING 2019-07-11 14:08:20,243 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 2294
+INFO 2019-07-11 14:20:18,701 basehttp 124 "GET /register/ HTTP/1.1" 200 4097
+WARNING 2019-07-11 14:20:26,143 base 152 Not Found: /usernames/11111/count/
+WARNING 2019-07-11 14:20:26,144 basehttp 124 "GET /usernames/11111/count/ HTTP/1.1" 404 2321
+WARNING 2019-07-11 14:20:43,022 base 152 Not Found: /mobiles/15038131473/count/
+WARNING 2019-07-11 14:20:43,024 basehttp 124 "GET /mobiles/15038131473/count/ HTTP/1.1" 404 2333
+ERROR 2019-07-11 14:20:48,117 exception 135 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/db/backends/mysql/base.py", line 101, in execute
+    return self.cursor.execute(query, args)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/pymysql/connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/pymysql/connections.py", line 727, in _read_query_result
+    result.read()
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/pymysql/connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/pymysql/connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '15038131473' for key 'mobile'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/my-university/meiduo_mall/meiduo_mall/apps/users/views.py", line 42, in post
+    User.objects.create_user(username=username,password=password,mobile=mobile)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/contrib/auth/models.py", line 159, in create_user
+    return self._create_user(username, email, password, **extra_fields)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/contrib/auth/models.py", line 153, in _create_user
+    user.save(using=self._db)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/contrib/auth/base_user.py", line 80, in save
+    super(AbstractBaseUser, self).save(*args, **kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/db/models/base.py", line 808, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/db/models/base.py", line 838, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/db/models/base.py", line 924, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/db/models/base.py", line 963, in _do_insert
+    using=using, raw=raw)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1112, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/db/backends/utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/db/backends/mysql/base.py", line 101, in execute
+    return self.cursor.execute(query, args)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/pymysql/connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/pymysql/connections.py", line 727, in _read_query_result
+    result.read()
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/pymysql/connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/pymysql/connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.IntegrityError: (1062, "Duplicate entry '15038131473' for key 'mobile'")
+ERROR 2019-07-11 14:20:48,543 basehttp 124 "POST /register/ HTTP/1.1" 500 242075
+INFO 2019-07-11 14:23:41,399 basehttp 124 "GET /register/ HTTP/1.1" 200 4097
+WARNING 2019-07-11 14:23:48,501 base 152 Not Found: /usernames/11111/count/
+WARNING 2019-07-11 14:23:48,503 basehttp 124 "GET /usernames/11111/count/ HTTP/1.1" 404 2321
+WARNING 2019-07-11 14:24:08,248 base 152 Not Found: /mobiles/13411111111/count/
+WARNING 2019-07-11 14:24:08,268 basehttp 124 "GET /mobiles/13411111111/count/ HTTP/1.1" 404 2333
+INFO 2019-07-11 14:24:14,159 basehttp 124 "POST /register/ HTTP/1.1" 302 0
+INFO 2019-07-11 14:24:14,183 basehttp 124 "GET / HTTP/1.1" 200 24706
+WARNING 2019-07-11 14:24:14,848 base 152 Not Found: /carts/simple/
+WARNING 2019-07-11 14:24:14,849 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 2294
+INFO 2019-07-11 16:26:34,537 basehttp 124 "GET / HTTP/1.1" 200 24706
+WARNING 2019-07-11 16:26:35,450 base 152 Not Found: /carts/simple/
+WARNING 2019-07-11 16:26:35,456 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 2294
+INFO 2019-07-11 16:26:45,063 basehttp 124 "GET / HTTP/1.1" 200 24706
+INFO 2019-07-11 16:26:45,132 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-07-11 16:26:45,134 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-07-11 16:26:45,136 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-07-11 16:26:45,138 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-07-11 16:26:45,140 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-07-11 16:26:45,153 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO 2019-07-11 16:26:45,154 basehttp 124 "GET /static/js/slide.js HTTP/1.1" 304 0
+INFO 2019-07-11 16:26:45,155 basehttp 124 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2019-07-11 16:26:45,157 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-07-11 16:26:45,177 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-07-11 16:26:45,180 basehttp 124 "GET /static/images/goods/goods001.jpg HTTP/1.1" 304 0
+INFO 2019-07-11 16:26:45,182 basehttp 124 "GET /static/images/goods/goods002.jpg HTTP/1.1" 304 0
+INFO 2019-07-11 16:26:45,184 basehttp 124 "GET /static/images/slide01.jpg HTTP/1.1" 304 0
+INFO 2019-07-11 16:26:45,186 basehttp 124 "GET /static/images/slide02.jpg HTTP/1.1" 304 0
+INFO 2019-07-11 16:26:45,188 basehttp 124 "GET /static/images/slide03.jpg HTTP/1.1" 304 0
+INFO 2019-07-11 16:26:45,218 basehttp 124 "GET /static/images/slide04.jpg HTTP/1.1" 304 0
+INFO 2019-07-11 16:26:45,221 basehttp 124 "GET /static/images/adv01.jpg HTTP/1.1" 304 0
+INFO 2019-07-11 16:26:45,225 basehttp 124 "GET /static/images/banner01.jpg HTTP/1.1" 304 0
+INFO 2019-07-11 16:26:45,230 basehttp 124 "GET /static/images/goods/goods003.jpg HTTP/1.1" 304 0
+INFO 2019-07-11 16:26:45,241 basehttp 124 "GET /static/images/goods/goods004.jpg HTTP/1.1" 304 0
+INFO 2019-07-11 16:26:45,243 basehttp 124 "GET /static/images/goods/goods005.jpg HTTP/1.1" 304 0
+INFO 2019-07-11 16:26:45,245 basehttp 124 "GET /static/images/banner02.jpg HTTP/1.1" 304 0
+INFO 2019-07-11 16:26:45,282 basehttp 124 "GET /static/images/goods/goods008.jpg HTTP/1.1" 304 0
+INFO 2019-07-11 16:26:45,287 basehttp 124 "GET /static/images/goods/goods009.jpg HTTP/1.1" 304 0
+INFO 2019-07-11 16:26:45,291 basehttp 124 "GET /static/images/banner03.jpg HTTP/1.1" 304 0
+WARNING 2019-07-11 16:26:46,220 base 152 Not Found: /carts/simple/
+WARNING 2019-07-11 16:26:46,223 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 2294
+INFO 2019-07-11 16:26:54,640 basehttp 124 "GET / HTTP/1.1" 200 24706
+INFO 2019-07-11 16:26:54,715 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-07-11 16:26:54,717 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-07-11 16:26:54,727 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-07-11 16:26:54,736 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-07-11 16:26:54,738 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-07-11 16:26:54,747 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO 2019-07-11 16:26:54,752 basehttp 124 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2019-07-11 16:26:54,759 basehttp 124 "GET /static/js/slide.js HTTP/1.1" 304 0
+INFO 2019-07-11 16:26:54,766 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-07-11 16:26:54,770 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-07-11 16:26:54,777 basehttp 124 "GET /static/images/goods/goods001.jpg HTTP/1.1" 304 0
+INFO 2019-07-11 16:26:54,868 basehttp 124 "GET /static/images/slide01.jpg HTTP/1.1" 304 0
+INFO 2019-07-11 16:26:54,869 basehttp 124 "GET /static/images/slide02.jpg HTTP/1.1" 304 0
+INFO 2019-07-11 16:26:54,871 basehttp 124 "GET /static/images/goods/goods002.jpg HTTP/1.1" 304 0
+INFO 2019-07-11 16:26:54,873 basehttp 124 "GET /static/images/slide04.jpg HTTP/1.1" 304 0
+INFO 2019-07-11 16:26:54,884 basehttp 124 "GET /static/images/adv01.jpg HTTP/1.1" 304 0
+INFO 2019-07-11 16:26:54,887 basehttp 124 "GET /static/images/slide03.jpg HTTP/1.1" 304 0
+INFO 2019-07-11 16:26:54,902 basehttp 124 "GET /static/images/banner01.jpg HTTP/1.1" 304 0
+INFO 2019-07-11 16:26:54,907 basehttp 124 "GET /static/images/goods/goods003.jpg HTTP/1.1" 304 0
+INFO 2019-07-11 16:26:54,911 basehttp 124 "GET /static/images/goods/goods004.jpg HTTP/1.1" 304 0
+INFO 2019-07-11 16:26:54,918 basehttp 124 "GET /static/images/goods/goods005.jpg HTTP/1.1" 304 0
+INFO 2019-07-11 16:26:54,927 basehttp 124 "GET /static/images/banner02.jpg HTTP/1.1" 304 0
+INFO 2019-07-11 16:26:54,934 basehttp 124 "GET /static/images/goods/goods008.jpg HTTP/1.1" 304 0
+INFO 2019-07-11 16:26:54,940 basehttp 124 "GET /static/images/banner03.jpg HTTP/1.1" 304 0
+INFO 2019-07-11 16:26:54,943 basehttp 124 "GET /static/images/goods/goods009.jpg HTTP/1.1" 304 0
+WARNING 2019-07-11 16:26:55,356 base 152 Not Found: /carts/simple/
+WARNING 2019-07-11 16:26:55,361 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 2294
+INFO 2019-07-11 16:27:18,877 basehttp 124 "GET / HTTP/1.1" 200 24706
+WARNING 2019-07-11 16:27:19,999 base 152 Not Found: /carts/simple/
+WARNING 2019-07-11 16:27:20,000 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 2294
+WARNING 2019-07-11 16:27:20,128 base 152 Not Found: /favicon.ico
+WARNING 2019-07-11 16:27:20,130 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 2288
+INFO 2019-07-11 16:27:28,316 basehttp 124 "GET /static/login.html HTTP/1.1" 200 2641
+WARNING 2019-07-11 16:27:34,733 base 152 Not Found: /register.html
+WARNING 2019-07-11 16:27:34,735 basehttp 124 "GET /register.html HTTP/1.1" 404 2294
+INFO 2019-07-11 16:27:44,583 basehttp 124 "GET /register/ HTTP/1.1" 200 4091
+WARNING 2019-07-11 16:28:11,123 base 152 Not Found: /usernames/root1/count/
+WARNING 2019-07-11 16:28:11,125 basehttp 124 "GET /usernames/root1/count/ HTTP/1.1" 404 2321
+WARNING 2019-07-11 16:28:36,312 base 152 Not Found: /mobiles/13456789012/count/
+WARNING 2019-07-11 16:28:36,314 basehttp 124 "GET /mobiles/13456789012/count/ HTTP/1.1" 404 2333
+ERROR 2019-07-11 16:28:44,812 exception 135 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django_redis/cache.py", line 32, in _decorator
+    return method(self, *args, **kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django_redis/cache.py", line 124, in has_key
+    return self.client.has_key(*args, **kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django_redis/client/default.py", line 477, in has_key
+    raise ConnectionInterrupted(connection=client, parent=e)
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/my-university/meiduo_mall/meiduo_mall/apps/users/views.py", line 47, in post
+    login(request, user)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/contrib/auth/__init__.py", line 140, in login
+    request.session.cycle_key()
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/contrib/sessions/backends/base.py", line 311, in cycle_key
+    self.create()
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/contrib/sessions/backends/cache.py", line 44, in create
+    self._session_key = self._get_new_session_key()
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/contrib/sessions/backends/base.py", line 164, in _get_new_session_key
+    if not self.exists(session_key):
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/contrib/sessions/backends/cache.py", line 71, in exists
+    return session_key and (self.cache_key_prefix + session_key) in self._cache
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/cache/backends/base.py", line 203, in __contains__
+    return self.has_key(key)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django_redis/cache.py", line 39, in _decorator
+    raise e.parent
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django_redis/client/default.py", line 475, in has_key
+    return client.exists(key)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/redis/client.py", line 951, in exists
+    return self.execute_command('EXISTS', name)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/redis/client.py", line 673, in execute_command
+    connection.send_command(*args)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/redis/connection.py", line 610, in send_command
+    self.send_packed_command(self.pack_command(*args))
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/redis/connection.py", line 585, in send_packed_command
+    self.connect()
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/redis/connection.py", line 489, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR 2019-07-11 16:28:45,143 basehttp 124 "POST /register/ HTTP/1.1" 500 150900
+INFO 2019-07-11 16:29:01,019 basehttp 124 "GET /register/ HTTP/1.1" 200 4091
+WARNING 2019-07-11 16:29:09,619 base 152 Not Found: /usernames/1234567/count/
+WARNING 2019-07-11 16:29:09,628 basehttp 124 "GET /usernames/1234567/count/ HTTP/1.1" 404 2327
+WARNING 2019-07-11 16:29:45,333 base 152 Not Found: /mobiles/13131313121/count/
+WARNING 2019-07-11 16:29:45,334 basehttp 124 "GET /mobiles/13131313121/count/ HTTP/1.1" 404 2333
+ERROR 2019-07-11 16:29:53,992 exception 135 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django_redis/cache.py", line 32, in _decorator
+    return method(self, *args, **kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django_redis/cache.py", line 124, in has_key
+    return self.client.has_key(*args, **kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django_redis/client/default.py", line 477, in has_key
+    raise ConnectionInterrupted(connection=client, parent=e)
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/my-university/meiduo_mall/meiduo_mall/apps/users/views.py", line 47, in post
+    login(request, user)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/contrib/auth/__init__.py", line 140, in login
+    request.session.cycle_key()
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/contrib/sessions/backends/base.py", line 311, in cycle_key
+    self.create()
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/contrib/sessions/backends/cache.py", line 44, in create
+    self._session_key = self._get_new_session_key()
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/contrib/sessions/backends/base.py", line 164, in _get_new_session_key
+    if not self.exists(session_key):
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/contrib/sessions/backends/cache.py", line 71, in exists
+    return session_key and (self.cache_key_prefix + session_key) in self._cache
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/cache/backends/base.py", line 203, in __contains__
+    return self.has_key(key)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django_redis/cache.py", line 39, in _decorator
+    raise e.parent
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django_redis/client/default.py", line 475, in has_key
+    return client.exists(key)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/redis/client.py", line 951, in exists
+    return self.execute_command('EXISTS', name)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/redis/client.py", line 673, in execute_command
+    connection.send_command(*args)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/redis/connection.py", line 610, in send_command
+    self.send_packed_command(self.pack_command(*args))
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/redis/connection.py", line 585, in send_packed_command
+    self.connect()
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/redis/connection.py", line 489, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR 2019-07-11 16:29:54,152 basehttp 124 "POST /register/ HTTP/1.1" 500 150908
+INFO 2019-07-11 16:32:09,462 basehttp 124 "GET /register/ HTTP/1.1" 200 4091
+WARNING 2019-07-11 16:32:17,072 base 152 Not Found: /usernames/123456/count/
+WARNING 2019-07-11 16:32:17,073 basehttp 124 "GET /usernames/123456/count/ HTTP/1.1" 404 2324
+WARNING 2019-07-11 16:32:40,885 base 152 Not Found: /mobiles/14535678978/count/
+WARNING 2019-07-11 16:32:40,889 basehttp 124 "GET /mobiles/14535678978/count/ HTTP/1.1" 404 2333
+INFO 2019-07-11 16:32:48,631 basehttp 124 "POST /register/ HTTP/1.1" 302 0
+INFO 2019-07-11 16:32:48,640 basehttp 124 "GET / HTTP/1.1" 200 24706
+WARNING 2019-07-11 16:32:49,535 base 152 Not Found: /carts/simple/
+WARNING 2019-07-11 16:32:49,536 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 2294
+WARNING 2019-07-11 16:33:06,664 base 152 Not Found: /search/
+WARNING 2019-07-11 16:33:06,665 basehttp 124 "GET /search/?q= HTTP/1.1" 404 2279
+WARNING 2019-07-11 16:33:09,951 base 152 Not Found: /search/
+WARNING 2019-07-11 16:33:09,954 basehttp 124 "GET /search/?q= HTTP/1.1" 404 2279
