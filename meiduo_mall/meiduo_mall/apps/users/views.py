@@ -7,6 +7,7 @@ from django.shortcuts import render, redirect
 # Create your views here.
 from django.urls import reverse
 from django.views import View
+from django_redis import get_redis_connection
 from pymysql import DatabaseError
 
 from users.models import User
@@ -17,13 +18,14 @@ class RegisterView(View):
 
         return render(request,'register.html')
     def post(self,request):
-        username = request.POST['username']
-        password = request.POST['password']
-        password2 = request.POST['password2']
-        mobile = request.POST['mobile']
-        allow = request.POST['allow']
+        username = request.POST.get('username')
+        password = request.POST.get('password')
+        password2 = request.POST.get('password2')
+        mobile = request.POST.get('mobile')
+        allow = request.POST.get('allow')
+        sms_code_client = request.POST.get('sms_code')
         # 判断参数是否齐全
-        if not all([username,password,password2,mobile,allow]):
+        if not all([username,password,password2,mobile,allow,sms_code_client]):
             return http.HttpResponseForbidden("缺少必传参数")
         # 判断用户名是否是5-20个字符
 
@@ -40,6 +42,14 @@ class RegisterView(View):
             return http.HttpResponseForbidden('请输入正确的手机号码')
         if allow != 'on':
             return http.HttpResponseForbidden('请勾选用户协议')
+        conn = get_redis_connection('verify_code')
+        sms_code = conn.get('sms_code%s' % mobile)
+        if sms_code is None:
+            return http.HttpResponseForbidden('验证码过期')
+        sms_code_server = sms_code.decode()
+        if sms_code_client != sms_code_server:
+            return http.HttpResponseForbidden('验证码输入有误')
+
         try:
             user = User.objects.create_user(username=username,password=password,mobile=mobile)
         except DatabaseError:
@@ -61,7 +71,20 @@ class MobileCountView(View):
 
 
 
+class LoginView(View):
+    def get(self,request):
 
-
-
-
+        return render(request,'login.html')
+    def post(self,request):
+        username = request.POST.get('username')
+        password = request.POST.get('password')
+        remembered = request.POST.get('remembered')
+        if not all([username, password, remembered]):
+            return http.HttpResponseForbidden('缺少必传参数')
+        if not re.match(r'^[a-zA-Z0-9_-]{5,20}',username):
+            return http.HttpResponseForbidden('请输入正确的用户名或手机号')
+        if not re.match(r'^[a-zA-Z0-9]{8,20}',password):
+            return http.HttpResponseForbidden('密码输入错误')
+        user = User.objects.filter(username=username,password=password)
+        if user is None:
+            return render(request,'login.html',{'account_errmsg':'用户名或密码错误'})
