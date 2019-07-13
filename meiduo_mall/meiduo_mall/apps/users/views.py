@@ -1,7 +1,7 @@
 import re
 
 from django import http
-from django.contrib.auth import login
+from django.contrib.auth import login, authenticate
 from django.shortcuts import render, redirect
 
 # Create your views here.
@@ -79,12 +79,21 @@ class LoginView(View):
         username = request.POST.get('username')
         password = request.POST.get('password')
         remembered = request.POST.get('remembered')
-        if not all([username, password, remembered]):
+        if not all([username, password]):
             return http.HttpResponseForbidden('缺少必传参数')
         if not re.match(r'^[a-zA-Z0-9_-]{5,20}',username):
             return http.HttpResponseForbidden('请输入正确的用户名或手机号')
         if not re.match(r'^[a-zA-Z0-9]{8,20}',password):
             return http.HttpResponseForbidden('密码输入错误')
-        user = User.objects.filter(username=username,password=password)
+        user = authenticate(username=username, password=password)
         if user is None:
             return render(request,'login.html',{'account_errmsg':'用户名或密码错误'})
+        login(request,user)
+        if remembered != 'on':
+            request.session.set_expiry(0)
+        else:
+            request.session.set_expiry(None)
+
+
+        return redirect(reverse('contents:index'))
+

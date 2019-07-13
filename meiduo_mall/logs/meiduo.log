@@ -2905,3 +2905,326 @@ INFO 2019-07-12 12:50:54,520 basehttp 124 "POST /register/ HTTP/1.1" 302 0
 INFO 2019-07-12 12:50:54,560 basehttp 124 "GET / HTTP/1.1" 200 24706
 WARNING 2019-07-12 12:50:55,629 base 152 Not Found: /carts/simple/
 WARNING 2019-07-12 12:50:55,630 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3054
+INFO 2019-07-13 01:37:13,547 basehttp 124 "GET / HTTP/1.1" 200 24696
+WARNING 2019-07-13 01:37:14,963 base 152 Not Found: /carts/simple/
+WARNING 2019-07-13 01:37:14,965 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3209
+WARNING 2019-07-13 01:37:15,150 base 152 Not Found: /favicon.ico
+WARNING 2019-07-13 01:37:15,151 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 3203
+WARNING 2019-07-13 01:37:20,382 base 152 Not Found: /login.html
+WARNING 2019-07-13 01:37:20,383 basehttp 124 "GET /login.html HTTP/1.1" 404 3200
+WARNING 2019-07-13 01:37:34,065 base 152 Not Found: /register.html
+WARNING 2019-07-13 01:37:34,066 basehttp 124 "GET /register.html HTTP/1.1" 404 3209
+INFO 2019-07-13 01:43:49,517 basehttp 124 "GET /login/ HTTP/1.1" 200 2637
+WARNING 2019-07-13 01:44:10,490 base 152 Not Found: /login/register.html
+WARNING 2019-07-13 01:44:10,491 basehttp 124 "GET /login/register.html HTTP/1.1" 404 3227
+WARNING 2019-07-13 01:44:19,602 base 152 Not Found: /login/register.html
+WARNING 2019-07-13 01:44:19,604 basehttp 124 "GET /login/register.html HTTP/1.1" 404 3227
+WARNING 2019-07-13 01:44:26,135 base 152 Not Found: /login/register.html
+WARNING 2019-07-13 01:44:26,136 basehttp 124 "GET /login/register.html HTTP/1.1" 404 3227
+WARNING 2019-07-13 01:45:18,731 csrf 160 Forbidden (CSRF token missing or incorrect.): /login/
+WARNING 2019-07-13 01:45:18,818 basehttp 124 "POST /login/ HTTP/1.1" 403 2502
+WARNING 2019-07-13 01:45:37,024 csrf 160 Forbidden (CSRF token missing or incorrect.): /login/
+WARNING 2019-07-13 01:45:37,028 basehttp 124 "POST /login/ HTTP/1.1" 403 2502
+INFO 2019-07-13 01:45:39,353 basehttp 124 "GET /login/ HTTP/1.1" 200 2637
+INFO 2019-07-13 01:45:52,413 basehttp 124 "GET /register HTTP/1.1" 301 0
+INFO 2019-07-13 01:45:52,470 basehttp 124 "GET /register/ HTTP/1.1" 200 4250
+ERROR 2019-07-13 01:45:53,079 exception 135 Internal Server Error: /image_codes/9ab2b92b-c7fa-411a-a729-15caed4d2197/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/redis/connection.py", line 484, in connect
+    sock = self._connect()
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/redis/connection.py", line 541, in _connect
+    raise err
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/redis/connection.py", line 529, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/redis/client.py", line 667, in execute_command
+    connection.send_command(*args)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/redis/connection.py", line 610, in send_command
+    self.send_packed_command(self.pack_command(*args))
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/redis/connection.py", line 585, in send_packed_command
+    self.connect()
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/redis/connection.py", line 489, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/redis/connection.py", line 484, in connect
+    sock = self._connect()
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/redis/connection.py", line 541, in _connect
+    raise err
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/redis/connection.py", line 529, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/my-university/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 30, in get
+    redis_conn.setex('img_%s' % uuid, constants.IMAGE_CODE_REDIS_EXPIRES, text)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/redis/client.py", line 1192, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/redis/client.py", line 673, in execute_command
+    connection.send_command(*args)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/redis/connection.py", line 610, in send_command
+    self.send_packed_command(self.pack_command(*args))
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/redis/connection.py", line 585, in send_packed_command
+    self.connect()
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/redis/connection.py", line 489, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR 2019-07-13 01:45:53,385 basehttp 124 "GET /image_codes/9ab2b92b-c7fa-411a-a729-15caed4d2197/ HTTP/1.1" 500 156956
+INFO 2019-07-13 01:46:01,729 basehttp 124 "GET /usernames/121212/count/ HTTP/1.1" 200 39
+INFO 2019-07-13 01:46:14,981 basehttp 124 "GET /usernames/123123/count/ HTTP/1.1" 200 39
+INFO 2019-07-13 01:46:53,449 basehttp 124 "GET /mobiles/13423451234/count/ HTTP/1.1" 200 39
+INFO 2019-07-13 01:47:09,941 basehttp 124 "GET /mobiles/13423451234/count/ HTTP/1.1" 200 39
+INFO 2019-07-13 01:47:11,188 basehttp 124 "GET /register/ HTTP/1.1" 200 4250
+INFO 2019-07-13 01:47:11,228 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-07-13 01:47:11,240 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-07-13 01:47:11,252 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-07-13 01:47:11,254 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-07-13 01:47:11,255 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-07-13 01:47:11,256 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-07-13 01:47:11,262 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-07-13 01:47:11,287 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-07-13 01:47:11,582 basehttp 124 "GET /image_codes/2f6f3656-9cb2-4079-8468-6228a170cff5/ HTTP/1.1" 200 2891
+INFO 2019-07-13 01:47:20,039 basehttp 124 "GET /usernames/123123/count/ HTTP/1.1" 200 39
+INFO 2019-07-13 01:47:46,318 basehttp 124 "GET /mobiles/13456781111/count/ HTTP/1.1" 200 39
+INFO 2019-07-13 01:47:59,288 basehttp 124 "GET /sms_codes/13456781111/?image_code=8s7y&image_code_id=2f6f3656-9cb2-4079-8468-6228a170cff5 HTTP/1.1" 200 28
+INFO 2019-07-13 01:47:59,327 basehttp 124 "GET /mobiles/13456781111/count/ HTTP/1.1" 200 39
+INFO 2019-07-13 01:48:26,777 basehttp 124 "POST /register/ HTTP/1.1" 302 0
+INFO 2019-07-13 01:48:26,805 basehttp 124 "GET / HTTP/1.1" 200 24696
+WARNING 2019-07-13 01:48:27,539 base 152 Not Found: /carts/simple/
+WARNING 2019-07-13 01:48:27,541 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3209
+INFO 2019-07-13 01:48:39,133 basehttp 124 "GET / HTTP/1.1" 200 24696
+INFO 2019-07-13 01:48:39,181 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-07-13 01:48:39,184 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-07-13 01:48:39,187 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-07-13 01:48:39,189 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-07-13 01:48:39,192 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-07-13 01:48:39,196 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO 2019-07-13 01:48:39,213 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-07-13 01:48:39,248 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-07-13 01:48:39,248 basehttp 124 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2019-07-13 01:48:39,252 basehttp 124 "GET /static/images/goods/goods001.jpg HTTP/1.1" 304 0
+INFO 2019-07-13 01:48:39,253 basehttp 124 "GET /static/js/slide.js HTTP/1.1" 304 0
+INFO 2019-07-13 01:48:39,268 basehttp 124 "GET /static/images/goods/goods002.jpg HTTP/1.1" 304 0
+INFO 2019-07-13 01:48:39,273 basehttp 124 "GET /static/images/slide01.jpg HTTP/1.1" 304 0
+INFO 2019-07-13 01:48:39,277 basehttp 124 "GET /static/images/slide02.jpg HTTP/1.1" 304 0
+INFO 2019-07-13 01:48:39,281 basehttp 124 "GET /static/images/slide03.jpg HTTP/1.1" 304 0
+INFO 2019-07-13 01:48:39,284 basehttp 124 "GET /static/images/slide04.jpg HTTP/1.1" 304 0
+INFO 2019-07-13 01:48:39,288 basehttp 124 "GET /static/images/adv01.jpg HTTP/1.1" 304 0
+INFO 2019-07-13 01:48:39,308 basehttp 124 "GET /static/images/goods/goods005.jpg HTTP/1.1" 304 0
+INFO 2019-07-13 01:48:39,314 basehttp 124 "GET /static/images/banner02.jpg HTTP/1.1" 304 0
+INFO 2019-07-13 01:48:39,319 basehttp 124 "GET /static/images/goods/goods008.jpg HTTP/1.1" 304 0
+INFO 2019-07-13 01:48:39,326 basehttp 124 "GET /static/images/banner01.jpg HTTP/1.1" 304 0
+INFO 2019-07-13 01:48:39,329 basehttp 124 "GET /static/images/goods/goods003.jpg HTTP/1.1" 304 0
+INFO 2019-07-13 01:48:39,331 basehttp 124 "GET /static/images/banner03.jpg HTTP/1.1" 304 0
+INFO 2019-07-13 01:48:39,335 basehttp 124 "GET /static/images/goods/goods004.jpg HTTP/1.1" 304 0
+INFO 2019-07-13 01:48:39,355 basehttp 124 "GET /static/images/goods/goods009.jpg HTTP/1.1" 304 0
+WARNING 2019-07-13 01:48:40,003 base 152 Not Found: /carts/simple/
+WARNING 2019-07-13 01:48:40,004 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3209
+INFO 2019-07-13 01:48:50,296 basehttp 124 "GET /login/ HTTP/1.1" 200 2637
+WARNING 2019-07-13 01:49:13,395 csrf 160 Forbidden (CSRF token missing or incorrect.): /login/
+WARNING 2019-07-13 01:49:13,400 basehttp 124 "POST /login/ HTTP/1.1" 403 2502
+INFO 2019-07-13 01:51:55,088 basehttp 124 "GET /login/ HTTP/1.1" 200 2768
+WARNING 2019-07-13 01:52:17,402 basehttp 124 "POST /login/ HTTP/1.1" 403 18
+INFO 2019-07-13 01:52:56,703 basehttp 124 "GET /login/ HTTP/1.1" 200 2773
+WARNING 2019-07-13 01:53:08,863 basehttp 124 "POST /login/ HTTP/1.1" 403 18
+INFO 2019-07-13 01:53:32,655 basehttp 124 "GET /login/ HTTP/1.1" 200 2773
+ERROR 2019-07-13 01:53:44,199 exception 135 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/my-university/meiduo_mall/meiduo_mall/apps/users/views.py", line 91, in post
+    login(request,user)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/contrib/auth/__init__.py", line 132, in login
+    if _get_user_session_key(request) != user.pk or (
+AttributeError: 'QuerySet' object has no attribute 'pk'
+ERROR 2019-07-13 01:53:44,349 basehttp 124 "POST /login/ HTTP/1.1" 500 89138
+INFO 2019-07-13 02:23:22,450 basehttp 124 "GET /login/ HTTP/1.1" 200 2785
+ERROR 2019-07-13 02:23:36,781 exception 135 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/my-university/meiduo_mall/meiduo_mall/apps/users/views.py", line 91, in post
+    login(request,user)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/contrib/auth/__init__.py", line 132, in login
+    if _get_user_session_key(request) != user.pk or (
+AttributeError: 'QuerySet' object has no attribute 'pk'
+ERROR 2019-07-13 02:23:36,905 basehttp 124 "POST /login/ HTTP/1.1" 500 89881
+INFO 2019-07-13 02:27:50,866 basehttp 124 "GET /login/ HTTP/1.1" 200 2785
+ERROR 2019-07-13 02:28:06,865 exception 135 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/my-university/meiduo_mall/meiduo_mall/apps/users/views.py", line 91, in post
+    login(request,user)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/contrib/auth/__init__.py", line 132, in login
+    if _get_user_session_key(request) != user.pk or (
+AttributeError: 'QuerySet' object has no attribute 'pk'
+ERROR 2019-07-13 02:28:07,029 basehttp 124 "POST /login/ HTTP/1.1" 500 89685
+INFO 2019-07-13 02:31:26,744 basehttp 124 "GET /login/ HTTP/1.1" 200 2768
+ERROR 2019-07-13 02:31:59,953 exception 135 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/my-university/meiduo_mall/meiduo_mall/apps/users/views.py", line 91, in post
+    login(request,user)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/contrib/auth/__init__.py", line 132, in login
+    if _get_user_session_key(request) != user.pk or (
+AttributeError: 'QuerySet' object has no attribute 'pk'
+ERROR 2019-07-13 02:32:00,088 basehttp 124 "POST /login/ HTTP/1.1" 500 89823
+INFO 2019-07-13 02:45:57,020 basehttp 124 "GET /login/ HTTP/1.1" 200 2921
+ERROR 2019-07-13 02:46:14,241 exception 135 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/my-university/meiduo_mall/meiduo_mall/apps/users/views.py", line 91, in post
+    login(request,user)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/contrib/auth/__init__.py", line 132, in login
+    if _get_user_session_key(request) != user.pk or (
+AttributeError: 'QuerySet' object has no attribute 'pk'
+ERROR 2019-07-13 02:46:14,377 basehttp 124 "POST /login/ HTTP/1.1" 500 89687
+INFO 2019-07-13 02:48:58,232 basehttp 124 "GET /login/ HTTP/1.1" 200 2921
+INFO 2019-07-13 02:49:10,478 basehttp 124 "POST /login/ HTTP/1.1" 200 2992
+INFO 2019-07-13 02:49:25,111 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2019-07-13 02:49:25,135 basehttp 124 "GET / HTTP/1.1" 200 24696
+WARNING 2019-07-13 02:49:25,938 base 152 Not Found: /carts/simple/
+WARNING 2019-07-13 02:49:25,942 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3209
+WARNING 2019-07-13 02:49:36,219 base 152 Not Found: /login.html
+WARNING 2019-07-13 02:49:36,220 basehttp 124 "GET /login.html HTTP/1.1" 404 3200
+WARNING 2019-07-13 02:49:43,058 base 152 Not Found: /login.html
+WARNING 2019-07-13 02:49:43,060 basehttp 124 "GET /login.html HTTP/1.1" 404 3200
+WARNING 2019-07-13 02:58:18,151 base 152 Not Found: /login.html
+WARNING 2019-07-13 02:58:18,153 basehttp 124 "GET /login.html HTTP/1.1" 404 3200
+INFO 2019-07-13 02:58:26,462 basehttp 124 "GET /login HTTP/1.1" 301 0
+ERROR 2019-07-13 02:58:26,551 exception 135 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/my-university/meiduo_mall/meiduo_mall/apps/users/views.py", line 77, in get
+    return render(request,'login.html')
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/my-university/meiduo_mall/meiduo_mall/templates/login.html", line 48, in top-level template code
+    <a href="{{url('register')}}" class="register_btn">立即注册</a>
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/urls/base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/urls/resolvers.py", line 497, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'register' not found. 'register' is not a valid view function or pattern name.
+ERROR 2019-07-13 02:58:26,861 basehttp 124 "GET /login/ HTTP/1.1" 500 132941
+ERROR 2019-07-13 02:58:50,420 exception 135 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/my-university/meiduo_mall/meiduo_mall/apps/users/views.py", line 77, in get
+    return render(request,'login.html')
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/my-university/meiduo_mall/meiduo_mall/templates/login.html", line 48, in top-level template code
+    <a href="{{url('register')}}" class="register_btn">立即注册</a>
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/urls/base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/urls/resolvers.py", line 497, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'register' not found. 'register' is not a valid view function or pattern name.
+ERROR 2019-07-13 02:58:50,580 basehttp 124 "GET /login/ HTTP/1.1" 500 132941
+INFO 2019-07-13 03:02:13,717 basehttp 124 "GET /login/ HTTP/1.1" 200 2912
+INFO 2019-07-13 03:02:38,231 basehttp 124 "POST /login/ HTTP/1.1" 200 2983
+INFO 2019-07-13 03:03:03,953 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2019-07-13 03:03:03,978 basehttp 124 "GET / HTTP/1.1" 200 24696
+WARNING 2019-07-13 03:03:04,623 base 152 Not Found: /carts/simple/
+WARNING 2019-07-13 03:03:04,625 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3209
