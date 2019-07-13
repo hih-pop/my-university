@@ -222,3 +222,5 @@ LOGGING = {
 
 
 AUTH_USER_MODEL = 'users.User'
+# 重写django方法
+AUTHENTICATION_BACKENDS = ['users.utils.UsernameMobileAuthBackend']

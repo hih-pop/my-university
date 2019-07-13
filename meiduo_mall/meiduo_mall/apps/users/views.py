@@ -1,7 +1,8 @@
 import re
 
 from django import http
-from django.contrib.auth import login, authenticate
+from django.contrib.auth import login, authenticate, logout
+from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, redirect
 
 # Create your views here.
@@ -12,11 +13,12 @@ from pymysql import DatabaseError
 
 from users.models import User
 
+from meiduo_mall.utils.views import LoginRequiredMixin
 
 class RegisterView(View):
     def get(self,request):
 
-        return render(request,'register.html')
+        return redirect(reverse('users:register'))
     def post(self,request):
         username = request.POST.get('username')
         password = request.POST.get('password')
@@ -57,7 +59,9 @@ class RegisterView(View):
 
         login(request, user)
 
-        return redirect(reverse('contents:index'))
+        response = redirect(reverse('contents:index'))
+        response.set_cookie('username', user.username, max_age=3600 * 24 * 14)
+        return response
 class UsernameCountView(View):
     def get(self,request,username):
         count = User.objects.filter(username=username).count()
@@ -95,5 +99,54 @@ class LoginView(View):
             request.session.set_expiry(None)
 
 
-        return redirect(reverse('contents:index'))
+        # response = redirect(reverse('contents:index'))
+        # response.set_cookie('username',user.username,max_age=3600*24*14)
+        # return response
+        # 接受变量
+        next = request.GET.get('next')
+        if next:
+            response = redirect('next')
+        else:
+            response = redirect(reverse('contents:index'))
+        response.set_cookie('username',user.username,max_age=3600*24*14)
+        return response
+
+
+
+
+class LogoutView(View):
+
+    '''推出登陆'''
+    def get(self,request):
+        '''
+        实现推出登陆逻辑
+        :param request:
+        :return:
+        '''
+        logout(request)
+        # 重定向到首页
+        response = redirect(reverse('users:login'))
+        # 清除cookie中username
+        response.delete_cookie('username')
+        return response
+
+
+
+class UserInfoView(LoginRequiredMixin,View):
+
+    def get(self,request):
+
+
+
+        if request.user.is_authenticated():
+
+
+            return render(request,'user_center_info.html')
+        else:
+            return redirect(reverse('users:login'))
+
+
+
+
+
 

@@ -14,13 +14,22 @@ Including another URLconf
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
 from django.conf.urls import url
+from django.contrib.auth.decorators import login_required
 
 from . import views
 
 
 urlpatterns = [
-    url(r'^register/$',views.RegisterView.as_view()),
+    # 注册
+    url(r'^register/$',views.RegisterView.as_view(), name='register'),
+    # 用户名
     url(r'^usernames/(?P<username>\w{5,20})/count/$',views.UsernameCountView.as_view()),
+    # 手机号
     url(r'^mobiles/(?P<mobile>1[3-9]\d{9})/count/$',views.MobileCountView.as_view()),
-    url(r'^login/$',views.LoginView.as_view()),
+    # 登陆
+    url(r'^login/$',views.LoginView.as_view(),name='login'),
+    # 推出
+    url(r'^logout/$',views.LogoutView.as_view(),name='logout'),
+    # 个人中心
+    url(r'^info/$',views.UserInfoView.as_view(),name='info'),
 ]
