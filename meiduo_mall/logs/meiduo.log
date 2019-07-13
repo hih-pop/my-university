@@ -3228,3 +3228,58 @@ INFO 2019-07-13 03:03:03,953 basehttp 124 "POST /login/ HTTP/1.1" 302 0
 INFO 2019-07-13 03:03:03,978 basehttp 124 "GET / HTTP/1.1" 200 24696
 WARNING 2019-07-13 03:03:04,623 base 152 Not Found: /carts/simple/
 WARNING 2019-07-13 03:03:04,625 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3209
+WARNING 2019-07-13 03:09:42,604 base 152 Not Found: /login.html
+WARNING 2019-07-13 03:09:42,629 basehttp 124 "GET /login.html HTTP/1.1" 404 3200
+INFO 2019-07-13 03:29:56,980 basehttp 124 "GET /register HTTP/1.1" 301 0
+INFO 2019-07-13 03:29:57,032 basehttp 124 "GET /register/ HTTP/1.1" 200 4250
+INFO 2019-07-13 03:29:57,430 basehttp 124 "GET /image_codes/803947e6-472d-4163-9d57-f8799410c0bb/ HTTP/1.1" 200 3237
+WARNING 2019-07-13 03:29:57,737 base 152 Not Found: /favicon.ico
+WARNING 2019-07-13 03:29:57,738 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 3203
+INFO 2019-07-13 03:30:03,335 basehttp 124 "GET /register/ HTTP/1.1" 200 4250
+INFO 2019-07-13 03:30:03,643 basehttp 124 "GET /image_codes/616d62c8-ad16-4997-a08e-e5c2a9b7989d/ HTTP/1.1" 200 3401
+INFO 2019-07-13 03:30:09,967 basehttp 124 "GET /login HTTP/1.1" 301 0
+INFO 2019-07-13 03:30:09,999 basehttp 124 "GET /login/ HTTP/1.1" 200 2912
+INFO 2019-07-13 03:30:30,477 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2019-07-13 03:30:30,511 basehttp 124 "GET / HTTP/1.1" 200 24691
+INFO 2019-07-13 03:30:30,600 basehttp 124 "GET /static/css/reset.css/ HTTP/1.1" 200 638
+INFO 2019-07-13 03:30:30,634 basehttp 124 "GET /static/js/host.js/ HTTP/1.1" 200 75
+INFO 2019-07-13 03:30:30,641 basehttp 124 "GET /static/js/axios-0.18.0.min.js/ HTTP/1.1" 200 12941
+INFO 2019-07-13 03:30:30,644 basehttp 124 "GET /static/css/main.css/ HTTP/1.1" 200 39722
+INFO 2019-07-13 03:30:30,645 basehttp 124 "GET /static/js/jquery-1.12.4.min.js/ HTTP/1.1" 200 97163
+INFO 2019-07-13 03:30:30,681 basehttp 124 "GET /static/js/vue-2.5.16.js/ HTTP/1.1" 200 289307
+WARNING 2019-07-13 03:30:30,951 basehttp 124 "GET /static/css/images/icons.png HTTP/1.1" 404 1673
+WARNING 2019-07-13 03:30:31,606 base 152 Not Found: /carts/simple/
+WARNING 2019-07-13 03:30:31,607 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3209
+INFO 2019-07-13 03:30:42,519 basehttp 124 "GET /static/user_center_info.html HTTP/1.1" 200 5354
+INFO 2019-07-13 03:30:42,594 basehttp 124 "GET /static/images/goods/goods006.jpg HTTP/1.1" 200 6836
+INFO 2019-07-13 03:30:42,606 basehttp 124 "GET /static/images/goods/goods007.jpg HTTP/1.1" 200 3936
+INFO 2019-07-13 03:30:42,607 basehttp 124 "GET /static/js/user_center_info.js HTTP/1.1" 200 4692
+INFO 2019-07-13 03:30:42,644 basehttp 124 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2019-07-13 03:30:42,659 basehttp 124 "GET /static/images/shop_cart.png HTTP/1.1" 200 1317
+INFO 2019-07-13 03:30:52,765 basehttp 124 "GET /static/cart.html HTTP/1.1" 200 4611
+INFO 2019-07-13 03:30:52,838 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 200 18210
+WARNING 2019-07-13 03:30:54,497 base 152 Not Found: /templates/register.html
+WARNING 2019-07-13 03:30:54,497 basehttp 124 "GET /templates/register.html HTTP/1.1" 404 3239
+INFO 2019-07-13 03:31:05,553 basehttp 124 "GET /static/user_center_order.html HTTP/1.1" 200 5853
+INFO 2019-07-13 03:31:05,607 basehttp 124 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 200 2935
+INFO 2019-07-13 03:31:05,609 basehttp 124 "GET /static/js/user_center_order.js HTTP/1.1" 200 2046
+INFO 2019-07-13 03:31:05,624 basehttp 124 "GET /static/css/jquery.pagination.css HTTP/1.1" 200 523
+INFO 2019-07-13 03:31:21,377 basehttp 124 "GET /static/user_center_site.html HTTP/1.1" 200 7419
+INFO 2019-07-13 03:31:21,437 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 200 27011
+INFO 2019-07-13 03:31:21,463 basehttp 124 "GET /static/images/edit.png HTTP/1.1" 200 1244
+WARNING 2019-07-13 03:31:21,751 base 152 Not Found: /areas/
+WARNING 2019-07-13 03:31:21,752 basehttp 124 "GET /areas/ HTTP/1.1" 404 3188
+INFO 2019-07-13 03:31:43,348 basehttp 124 "GET /static/user_center_site.html HTTP/1.1" 304 0
+INFO 2019-07-13 03:31:43,380 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-07-13 03:31:43,386 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-07-13 03:31:43,397 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-07-13 03:31:43,401 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-07-13 03:31:43,403 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-07-13 03:31:43,407 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-07-13 03:31:43,412 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+WARNING 2019-07-13 03:31:43,709 base 152 Not Found: /areas/
+WARNING 2019-07-13 03:31:43,711 basehttp 124 "GET /areas/ HTTP/1.1" 404 3188
+WARNING 2019-07-13 03:32:20,294 base 152 Not Found: /areas/
+WARNING 2019-07-13 03:32:20,295 basehttp 124 "GET /areas/ HTTP/1.1" 404 3188
+INFO 2019-07-13 03:32:23,630 basehttp 124 "GET /static/user_center_pass.html HTTP/1.1" 200 4407
+INFO 2019-07-13 03:32:23,709 basehttp 124 "GET /static/js/user_center_pass.js HTTP/1.1" 200 4955
