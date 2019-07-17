@@ -46,7 +46,7 @@ class SubAreasView(View):
 
             try:
 
-                province_model_list = Area.objects.filter(id=pk)
+                province_model = Area.objects.get(id=pk)
                 sub_model_list = Area.objects.filter(parent=pk)
 
                 subs = []
@@ -54,13 +54,13 @@ class SubAreasView(View):
                     subs.append({'id':sub_model.id,
                                  'name':sub_model.name})
 
-                sub_data = {'id':province_model_list.id,
-                                 'name':province_model_list.name,
-                                 'subs':subs}
+                sub_data = {'id':province_model.id,
+                            'name':province_model.name,
+                            'subs':subs}
+                cache.set('sub_data_'+pk,sub_data,3600)
             except Exception as e:
                 return http.JsonResponse({'code':RETCODE.DBERR,
                                           'errmsg':'获取数据失败'})
-            cache.set('sub_data_'+pk,sub_data,3600)
         return http.JsonResponse({'code':RETCODE.OK,
                                   'errmsg':'ok',
                                   'sub_data':sub_data})

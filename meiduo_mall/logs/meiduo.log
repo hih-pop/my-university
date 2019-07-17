@@ -12301,3 +12301,151 @@ INFO 2019-07-17 14:05:26,472 basehttp 124 "GET /static/images/logo.png HTTP/1.1"
 INFO 2019-07-17 14:05:26,491 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
 INFO 2019-07-17 14:05:26,735 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
 INFO 2019-07-17 14:05:29,819 basehttp 124 "GET /areas/140000/ HTTP/1.1" 200 89
+INFO 2019-07-17 14:26:00,678 basehttp 124 "GET / HTTP/1.1" 200 24777
+WARNING 2019-07-17 14:26:01,023 basehttp 124 "GET /static/css/images/icons.png HTTP/1.1" 404 1673
+WARNING 2019-07-17 14:26:01,760 base 152 Not Found: /carts/simple/
+WARNING 2019-07-17 14:26:01,762 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 4759
+WARNING 2019-07-17 14:26:01,870 base 152 Not Found: /favicon.ico
+WARNING 2019-07-17 14:26:01,873 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 4753
+INFO 2019-07-17 14:26:04,002 basehttp 124 "GET /info/ HTTP/1.1" 302 0
+WARNING 2019-07-17 14:26:04,025 base 152 Not Found: /accounts/login/
+WARNING 2019-07-17 14:26:04,027 basehttp 124 "GET /accounts/login/?next=/info/ HTTP/1.1" 404 4777
+INFO 2019-07-17 14:26:13,920 basehttp 124 "GET /logout/ HTTP/1.1" 302 0
+INFO 2019-07-17 14:26:13,932 basehttp 124 "GET / HTTP/1.1" 200 24777
+WARNING 2019-07-17 14:26:14,469 base 152 Not Found: /carts/simple/
+WARNING 2019-07-17 14:26:14,470 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 4759
+INFO 2019-07-17 14:26:16,415 basehttp 124 "GET /info/ HTTP/1.1" 302 0
+WARNING 2019-07-17 14:26:16,437 base 152 Not Found: /accounts/login/
+WARNING 2019-07-17 14:26:16,438 basehttp 124 "GET /accounts/login/?next=/info/ HTTP/1.1" 404 4777
+INFO 2019-07-17 14:26:21,626 basehttp 124 "GET /login/ HTTP/1.1" 200 2955
+ERROR 2019-07-17 14:26:51,534 exception 135 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django_redis/cache.py", line 32, in _decorator
+    return method(self, *args, **kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django_redis/cache.py", line 124, in has_key
+    return self.client.has_key(*args, **kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django_redis/client/default.py", line 478, in has_key
+    raise ConnectionInterrupted(connection=client, parent=e)
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/my-university/meiduo_mall/meiduo_mall/apps/users/views.py", line 101, in post
+    login(request,user)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/contrib/auth/__init__.py", line 140, in login
+    request.session.cycle_key()
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/contrib/sessions/backends/base.py", line 311, in cycle_key
+    self.create()
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/contrib/sessions/backends/cache.py", line 44, in create
+    self._session_key = self._get_new_session_key()
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/contrib/sessions/backends/base.py", line 164, in _get_new_session_key
+    if not self.exists(session_key):
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/contrib/sessions/backends/cache.py", line 71, in exists
+    return session_key and (self.cache_key_prefix + session_key) in self._cache
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/cache/backends/base.py", line 203, in __contains__
+    return self.has_key(key)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django_redis/cache.py", line 39, in _decorator
+    raise e.parent
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django_redis/client/default.py", line 476, in has_key
+    return client.exists(key) == 1
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/redis/client.py", line 1239, in exists
+    return self.execute_command('EXISTS', *names)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/redis/client.py", line 772, in execute_command
+    connection = pool.get_connection(command_name, **options)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/redis/connection.py", line 994, in get_connection
+    connection.connect()
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/redis/connection.py", line 497, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR 2019-07-17 14:26:51,794 basehttp 124 "POST /login/ HTTP/1.1" 500 150609
+INFO 2019-07-17 14:27:19,551 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2019-07-17 14:27:19,566 basehttp 124 "GET / HTTP/1.1" 200 24777
+INFO 2019-07-17 14:27:19,630 basehttp 124 "GET /static/css/reset.css/ HTTP/1.1" 304 0
+INFO 2019-07-17 14:27:19,636 basehttp 124 "GET /static/css/main.css/ HTTP/1.1" 304 0
+INFO 2019-07-17 14:27:19,639 basehttp 124 "GET /static/js/host.js/ HTTP/1.1" 304 0
+INFO 2019-07-17 14:27:19,643 basehttp 124 "GET /static/js/vue-2.5.16.js/ HTTP/1.1" 304 0
+INFO 2019-07-17 14:27:19,648 basehttp 124 "GET /static/js/axios-0.18.0.min.js/ HTTP/1.1" 304 0
+INFO 2019-07-17 14:27:19,652 basehttp 124 "GET /static/js/jquery-1.12.4.min.js/ HTTP/1.1" 304 0
+INFO 2019-07-17 14:27:19,660 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-07-17 14:27:19,666 basehttp 124 "GET /static/js/slide.js HTTP/1.1" 304 0
+INFO 2019-07-17 14:27:19,668 basehttp 124 "GET /static/js/base.js HTTP/1.1" 304 0
+INFO 2019-07-17 14:27:19,670 basehttp 124 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2019-07-17 14:27:19,673 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-07-17 14:27:19,734 basehttp 124 "GET /static/images/goods/goods001.jpg HTTP/1.1" 304 0
+INFO 2019-07-17 14:27:19,744 basehttp 124 "GET /static/images/goods/goods002.jpg HTTP/1.1" 304 0
+INFO 2019-07-17 14:27:19,760 basehttp 124 "GET /static/images/slide02.jpg HTTP/1.1" 304 0
+INFO 2019-07-17 14:27:19,768 basehttp 124 "GET /static/images/slide03.jpg HTTP/1.1" 304 0
+INFO 2019-07-17 14:27:19,777 basehttp 124 "GET /static/images/slide01.jpg HTTP/1.1" 304 0
+INFO 2019-07-17 14:27:19,807 basehttp 124 "GET /static/images/slide04.jpg HTTP/1.1" 304 0
+INFO 2019-07-17 14:27:19,833 basehttp 124 "GET /static/images/adv01.jpg HTTP/1.1" 304 0
+INFO 2019-07-17 14:27:19,845 basehttp 124 "GET /static/images/banner01.jpg HTTP/1.1" 304 0
+INFO 2019-07-17 14:27:19,867 basehttp 124 "GET /static/images/goods/goods004.jpg HTTP/1.1" 304 0
+INFO 2019-07-17 14:27:19,874 basehttp 124 "GET /static/images/goods/goods003.jpg HTTP/1.1" 304 0
+INFO 2019-07-17 14:27:19,886 basehttp 124 "GET /static/images/goods/goods005.jpg HTTP/1.1" 304 0
+INFO 2019-07-17 14:27:19,898 basehttp 124 "GET /static/images/banner02.jpg HTTP/1.1" 304 0
+INFO 2019-07-17 14:27:19,907 basehttp 124 "GET /static/images/goods/goods008.jpg HTTP/1.1" 304 0
+INFO 2019-07-17 14:27:19,920 basehttp 124 "GET /static/images/banner03.jpg HTTP/1.1" 304 0
+INFO 2019-07-17 14:27:19,930 basehttp 124 "GET /static/images/goods/goods009.jpg HTTP/1.1" 304 0
+WARNING 2019-07-17 14:27:20,655 base 152 Not Found: /carts/simple/
+WARNING 2019-07-17 14:27:20,657 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 4759
+INFO 2019-07-17 14:27:22,325 basehttp 124 "GET /info/ HTTP/1.1" 200 8324
+INFO 2019-07-17 14:27:22,482 basehttp 124 "GET /static/js/user_center_info.js HTTP/1.1" 304 0
+WARNING 2019-07-17 14:27:22,789 base 152 Not Found: /browse_histories/
+WARNING 2019-07-17 14:27:22,790 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 4771
+INFO 2019-07-17 14:27:26,074 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8722
+INFO 2019-07-17 14:27:26,200 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-07-17 14:27:26,387 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-07-17 14:27:28,741 basehttp 124 "GET /areas/130000/ HTTP/1.1" 200 89
+INFO 2019-07-17 14:28:35,090 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8722
+INFO 2019-07-17 14:28:35,128 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-07-17 14:28:35,137 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-07-17 14:28:35,140 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-07-17 14:28:35,143 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-07-17 14:28:35,146 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-07-17 14:28:35,159 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-07-17 14:28:35,162 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-07-17 14:28:35,516 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-07-17 14:28:37,686 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8722
+INFO 2019-07-17 14:28:37,708 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-07-17 14:28:37,729 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-07-17 14:28:37,733 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-07-17 14:28:37,740 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-07-17 14:28:37,772 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-07-17 14:28:37,776 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-07-17 14:28:37,777 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-07-17 14:28:38,103 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-07-17 14:28:39,821 basehttp 124 "GET /areas/140000/ HTTP/1.1" 200 89
+INFO 2019-07-17 14:41:18,638 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8722
+INFO 2019-07-17 14:41:18,678 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-07-17 14:41:18,682 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-07-17 14:41:18,711 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-07-17 14:41:18,714 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-07-17 14:41:18,745 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-07-17 14:41:18,757 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-07-17 14:41:18,762 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-07-17 14:41:19,067 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-07-17 14:41:21,583 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8722
+INFO 2019-07-17 14:41:21,620 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-07-17 14:41:21,625 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-07-17 14:41:21,629 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-07-17 14:41:21,632 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-07-17 14:41:21,634 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-07-17 14:41:21,678 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-07-17 14:41:21,682 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-07-17 14:41:21,954 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-07-17 14:41:25,706 basehttp 124 "GET /areas/220000/ HTTP/1.1" 200 541
+INFO 2019-07-17 14:41:28,996 basehttp 124 "GET /areas/220500/ HTTP/1.1" 200 431
+INFO 2019-07-17 14:41:30,663 basehttp 124 "GET /areas/220300/ HTTP/1.1" 200 403
+INFO 2019-07-17 14:41:46,382 basehttp 124 "GET /areas/410000/ HTTP/1.1" 200 979
+INFO 2019-07-17 14:41:51,190 basehttp 124 "GET /areas/411200/ HTTP/1.1" 200 379
