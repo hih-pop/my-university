@@ -59,7 +59,7 @@
 						<li>
 							<label>短信验证码:</label>
 							<input v-model="sms_code" @blur="check_sms_code" type="text" name="sms_code" id="msg_code" class="msg_input">
-							<a @click="send_sms_code" href="javascript:;" class="get_msg_code">[[sms_code_tip]]</a>
+							<a @click="send_sms_code"  class="get_msg_code">[[sms_code_tip]]</a>
 							<span v-show="error_sms_code" class="error_tip">[[error_sms_code_message]]</span>
 						</li>
 						<li class="agreement">
@@ -79,7 +79,7 @@
 			</div>
 			<div class="reg_title clearfix">
 				<h1>用户注册</h1>
-				<a href="{{static('login.html')}}">登录</a>
+				<a href="{{static('users:login')}}">登录</a>
 			</div>
 
 		</div>

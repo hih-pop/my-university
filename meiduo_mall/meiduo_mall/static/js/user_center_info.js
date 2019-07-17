@@ -4,7 +4,7 @@ var vm = new Vue({
     delimiters: ['[[', ']]'],
     data: {
         host: host,
-        username: '',
+        username: username,
         mobile: mobile,
         email: email,
         email_active: email_active,
@@ -14,9 +14,6 @@ var vm = new Vue({
         send_email_btn_disabled: false,
         send_email_tip: '重新发送验证邮件',
         histories: []
-    },
-    mounted(){
-        this.username = getCookie('username')
     },
     // ES6语法
     mounted() {
