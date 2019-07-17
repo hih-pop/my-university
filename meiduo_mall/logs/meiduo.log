@@ -12449,3 +12449,343 @@ INFO 2019-07-17 14:41:28,996 basehttp 124 "GET /areas/220500/ HTTP/1.1" 200 431
 INFO 2019-07-17 14:41:30,663 basehttp 124 "GET /areas/220300/ HTTP/1.1" 200 403
 INFO 2019-07-17 14:41:46,382 basehttp 124 "GET /areas/410000/ HTTP/1.1" 200 979
 INFO 2019-07-17 14:41:51,190 basehttp 124 "GET /areas/411200/ HTTP/1.1" 200 379
+INFO 2019-07-17 17:22:13,675 basehttp 124 "GET /addresses/ HTTP/1.1" 302 0
+WARNING 2019-07-17 17:22:14,546 base 152 Not Found: /accounts/login/
+WARNING 2019-07-17 17:22:14,549 basehttp 124 "GET /accounts/login/?next=/addresses/ HTTP/1.1" 404 4949
+INFO 2019-07-17 17:22:18,014 basehttp 124 "GET / HTTP/1.1" 200 24777
+WARNING 2019-07-17 17:22:19,439 basehttp 124 "GET /static/css/images/icons.png HTTP/1.1" 404 1673
+WARNING 2019-07-17 17:22:20,334 base 152 Not Found: /carts/simple/
+WARNING 2019-07-17 17:22:20,335 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 4926
+INFO 2019-07-17 17:22:23,491 basehttp 124 "GET /info/ HTTP/1.1" 302 0
+WARNING 2019-07-17 17:22:23,580 base 152 Not Found: /accounts/login/
+WARNING 2019-07-17 17:22:23,582 basehttp 124 "GET /accounts/login/?next=/info/ HTTP/1.1" 404 4944
+INFO 2019-07-17 17:22:34,291 basehttp 124 "GET / HTTP/1.1" 200 24777
+INFO 2019-07-17 17:22:34,409 basehttp 124 "GET /static/css/reset.css/ HTTP/1.1" 304 0
+INFO 2019-07-17 17:22:34,411 basehttp 124 "GET /static/js/axios-0.18.0.min.js/ HTTP/1.1" 304 0
+INFO 2019-07-17 17:22:34,413 basehttp 124 "GET /static/css/main.css/ HTTP/1.1" 304 0
+INFO 2019-07-17 17:22:34,414 basehttp 124 "GET /static/js/vue-2.5.16.js/ HTTP/1.1" 304 0
+INFO 2019-07-17 17:22:34,416 basehttp 124 "GET /static/js/host.js/ HTTP/1.1" 304 0
+INFO 2019-07-17 17:22:34,420 basehttp 124 "GET /static/js/jquery-1.12.4.min.js/ HTTP/1.1" 304 0
+INFO 2019-07-17 17:22:34,425 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-07-17 17:22:34,452 basehttp 124 "GET /static/js/slide.js HTTP/1.1" 304 0
+INFO 2019-07-17 17:22:34,457 basehttp 124 "GET /static/js/base.js HTTP/1.1" 304 0
+INFO 2019-07-17 17:22:34,462 basehttp 124 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2019-07-17 17:22:34,478 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-07-17 17:22:34,511 basehttp 124 "GET /static/images/goods/goods002.jpg HTTP/1.1" 304 0
+INFO 2019-07-17 17:22:34,512 basehttp 124 "GET /static/images/slide01.jpg HTTP/1.1" 304 0
+INFO 2019-07-17 17:22:34,520 basehttp 124 "GET /static/images/slide02.jpg HTTP/1.1" 304 0
+INFO 2019-07-17 17:22:34,528 basehttp 124 "GET /static/images/slide03.jpg HTTP/1.1" 304 0
+INFO 2019-07-17 17:22:34,536 basehttp 124 "GET /static/images/slide04.jpg HTTP/1.1" 304 0
+INFO 2019-07-17 17:22:34,543 basehttp 124 "GET /static/images/goods/goods001.jpg HTTP/1.1" 304 0
+INFO 2019-07-17 17:22:34,549 basehttp 124 "GET /static/images/adv01.jpg HTTP/1.1" 304 0
+INFO 2019-07-17 17:22:34,553 basehttp 124 "GET /static/images/banner01.jpg HTTP/1.1" 304 0
+INFO 2019-07-17 17:22:34,569 basehttp 124 "GET /static/images/goods/goods003.jpg HTTP/1.1" 304 0
+INFO 2019-07-17 17:22:34,581 basehttp 124 "GET /static/images/goods/goods004.jpg HTTP/1.1" 304 0
+INFO 2019-07-17 17:22:34,584 basehttp 124 "GET /static/images/goods/goods005.jpg HTTP/1.1" 304 0
+INFO 2019-07-17 17:22:34,585 basehttp 124 "GET /static/images/banner02.jpg HTTP/1.1" 304 0
+INFO 2019-07-17 17:22:34,606 basehttp 124 "GET /static/images/banner03.jpg HTTP/1.1" 304 0
+INFO 2019-07-17 17:22:34,613 basehttp 124 "GET /static/images/goods/goods008.jpg HTTP/1.1" 304 0
+INFO 2019-07-17 17:22:34,644 basehttp 124 "GET /static/images/goods/goods009.jpg HTTP/1.1" 304 0
+WARNING 2019-07-17 17:22:34,658 basehttp 124 "GET /static/css/images/icons.png HTTP/1.1" 404 1673
+WARNING 2019-07-17 17:22:35,031 base 152 Not Found: /carts/simple/
+WARNING 2019-07-17 17:22:35,032 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 4926
+WARNING 2019-07-17 17:22:57,475 base 152 Not Found: /accounts/login/
+WARNING 2019-07-17 17:22:57,479 basehttp 124 "GET /accounts/login/?next=/info/ HTTP/1.1" 404 4944
+INFO 2019-07-17 17:23:03,033 basehttp 124 "GET /logout/ HTTP/1.1" 302 0
+INFO 2019-07-17 17:23:03,107 basehttp 124 "GET / HTTP/1.1" 200 24777
+WARNING 2019-07-17 17:23:03,603 basehttp 124 "GET /static/css/images/icons.png HTTP/1.1" 404 1673
+WARNING 2019-07-17 17:23:04,008 base 152 Not Found: /carts/simple/
+WARNING 2019-07-17 17:23:04,009 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 4926
+INFO 2019-07-17 17:23:06,300 basehttp 124 "GET /login/ HTTP/1.1" 200 2955
+INFO 2019-07-17 17:23:18,129 basehttp 124 "POST /login/ HTTP/1.1" 200 3026
+INFO 2019-07-17 17:23:30,563 basehttp 124 "POST /login/ HTTP/1.1" 200 3026
+INFO 2019-07-17 17:23:40,120 basehttp 124 "POST /login/ HTTP/1.1" 200 3026
+INFO 2019-07-17 17:23:40,159 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-07-17 17:23:40,173 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-07-17 17:23:40,176 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-07-17 17:23:40,177 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-07-17 17:23:40,178 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-07-17 17:23:40,181 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 304 0
+INFO 2019-07-17 17:23:40,186 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-07-17 17:23:40,201 basehttp 124 "GET /static/js/login.js HTTP/1.1" 304 0
+INFO 2019-07-17 17:23:45,186 basehttp 124 "GET /login/ HTTP/1.1" 200 2955
+INFO 2019-07-17 17:23:57,658 basehttp 124 "POST /login/ HTTP/1.1" 200 3026
+INFO 2019-07-17 17:24:08,166 basehttp 124 "GET /register/ HTTP/1.1" 200 4234
+INFO 2019-07-17 17:24:08,339 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-07-17 17:24:08,757 basehttp 124 "GET /image_codes/bebe1da6-15c0-482b-9260-a25fb45d60a5/ HTTP/1.1" 200 2993
+INFO 2019-07-17 17:24:17,650 basehttp 124 "GET /usernames/115211/count/ HTTP/1.1" 200 39
+INFO 2019-07-17 17:24:34,322 basehttp 124 "GET /mobiles/15038131473/count/ HTTP/1.1" 200 41
+INFO 2019-07-17 17:24:40,177 basehttp 124 "GET /image_codes/70fda4e1-6b52-4683-94b4-e4dbc38e28da/ HTTP/1.1" 200 3173
+INFO 2019-07-17 17:24:42,386 basehttp 124 "GET /image_codes/455c417e-8350-4f3c-9ea6-aa3d9c6c9f70/ HTTP/1.1" 200 3189
+INFO 2019-07-17 17:25:02,116 basehttp 124 "GET /sms_codes/15038131473/?image_code=m9gu&image_code_id=455c417e-8350-4f3c-9ea6-aa3d9c6c9f70 HTTP/1.1" 200 72
+INFO 2019-07-17 17:25:02,236 basehttp 124 "GET /image_codes/a91fb2fb-46e8-4734-a966-7e5d76b933fc/ HTTP/1.1" 200 3275
+INFO 2019-07-17 17:25:02,255 basehttp 124 "GET /mobiles/15038131473/count/ HTTP/1.1" 200 41
+INFO 2019-07-17 17:25:11,093 basehttp 124 "GET /image_codes/c7178cc9-c2f2-4ead-a39e-b83afd879812/ HTTP/1.1" 200 3316
+INFO 2019-07-17 17:25:21,522 basehttp 124 "GET /mobiles/15038131473/count/ HTTP/1.1" 200 41
+INFO 2019-07-17 17:25:22,079 basehttp 124 "GET /sms_codes/15038131473/?image_code=y8ew&image_code_id=c7178cc9-c2f2-4ead-a39e-b83afd879812 HTTP/1.1" 200 28
+INFO 2019-07-17 17:25:45,567 basehttp 124 "POST /register/ HTTP/1.1" 302 0
+INFO 2019-07-17 17:25:45,579 basehttp 124 "GET / HTTP/1.1" 200 24777
+WARNING 2019-07-17 17:25:45,888 basehttp 124 "GET /static/css/images/icons.png HTTP/1.1" 404 1673
+WARNING 2019-07-17 17:25:46,731 base 152 Not Found: /carts/simple/
+WARNING 2019-07-17 17:25:46,732 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 4926
+INFO 2019-07-17 17:25:53,851 basehttp 124 "GET /info/ HTTP/1.1" 200 8307
+INFO 2019-07-17 17:25:53,983 basehttp 124 "GET /static/js/user_center_info.js HTTP/1.1" 304 0
+WARNING 2019-07-17 17:25:54,460 base 152 Not Found: /browse_histories/
+WARNING 2019-07-17 17:25:54,462 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 4938
+INFO 2019-07-17 17:25:58,284 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8722
+INFO 2019-07-17 17:25:58,369 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-07-17 17:25:59,083 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-07-17 17:26:33,907 basehttp 124 "GET /areas/410000/ HTTP/1.1" 200 979
+INFO 2019-07-17 17:26:38,345 basehttp 124 "GET /areas/411200/ HTTP/1.1" 200 379
+INFO 2019-07-17 17:34:49,830 basehttp 124 "GET /addresses/ HTTP/1.1" 200 9497
+INFO 2019-07-17 17:34:49,855 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-07-17 17:34:49,918 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-07-17 17:34:49,922 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-07-17 17:34:49,941 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-07-17 17:34:49,942 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-07-17 17:34:49,962 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-07-17 17:34:49,972 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO 2019-07-17 17:34:49,974 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-07-17 17:34:49,996 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-07-17 17:34:50,484 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+WARNING 2019-07-17 17:35:00,828 base 152 Not Found: /addresses/user_center_site.html
+WARNING 2019-07-17 17:35:00,831 basehttp 124 "GET /addresses/user_center_site.html HTTP/1.1" 404 4980
+INFO 2019-07-17 17:37:43,228 basehttp 124 "GET /addresses/ HTTP/1.1" 200 9500
+INFO 2019-07-17 17:37:43,260 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-07-17 17:37:43,271 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-07-17 17:37:43,274 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO 2019-07-17 17:37:43,276 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-07-17 17:37:43,280 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-07-17 17:37:43,283 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-07-17 17:37:43,297 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-07-17 17:37:43,338 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-07-17 17:37:43,339 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-07-17 17:37:43,701 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-07-17 17:38:08,862 basehttp 124 "GET /areas/410000/ HTTP/1.1" 200 979
+INFO 2019-07-17 17:38:11,839 basehttp 124 "GET /areas/411200/ HTTP/1.1" 200 379
+ERROR 2019-07-17 17:38:41,844 exception 135 Internal Server Error: /addresses/create/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/my-university/meiduo_mall/meiduo_mall/apps/areas/views.py", line 80, in post
+    count = request.user.adresses.count()
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/utils/functional.py", line 239, in inner
+    return func(self._wrapped, *args)
+AttributeError: 'User' object has no attribute 'adresses'
+ERROR 2019-07-17 17:38:42,145 basehttp 124 "POST /addresses/create/ HTTP/1.1" 500 95209
+ERROR 2019-07-17 17:38:45,706 exception 135 Internal Server Error: /addresses/create/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/my-university/meiduo_mall/meiduo_mall/apps/areas/views.py", line 80, in post
+    count = request.user.adresses.count()
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/utils/functional.py", line 239, in inner
+    return func(self._wrapped, *args)
+AttributeError: 'User' object has no attribute 'adresses'
+ERROR 2019-07-17 17:38:45,894 basehttp 124 "POST /addresses/create/ HTTP/1.1" 500 95209
+ERROR 2019-07-17 17:38:46,500 exception 135 Internal Server Error: /addresses/create/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/my-university/meiduo_mall/meiduo_mall/apps/areas/views.py", line 80, in post
+    count = request.user.adresses.count()
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/utils/functional.py", line 239, in inner
+    return func(self._wrapped, *args)
+AttributeError: 'User' object has no attribute 'adresses'
+ERROR 2019-07-17 17:38:46,680 basehttp 124 "POST /addresses/create/ HTTP/1.1" 500 95209
+ERROR 2019-07-17 17:38:46,929 exception 135 Internal Server Error: /addresses/create/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/my-university/meiduo_mall/meiduo_mall/apps/areas/views.py", line 80, in post
+    count = request.user.adresses.count()
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/utils/functional.py", line 239, in inner
+    return func(self._wrapped, *args)
+AttributeError: 'User' object has no attribute 'adresses'
+ERROR 2019-07-17 17:38:47,071 basehttp 124 "POST /addresses/create/ HTTP/1.1" 500 95209
+ERROR 2019-07-17 17:38:47,417 exception 135 Internal Server Error: /addresses/create/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/my-university/meiduo_mall/meiduo_mall/apps/areas/views.py", line 80, in post
+    count = request.user.adresses.count()
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/utils/functional.py", line 239, in inner
+    return func(self._wrapped, *args)
+AttributeError: 'User' object has no attribute 'adresses'
+ERROR 2019-07-17 17:38:47,573 exception 135 Internal Server Error: /addresses/create/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/my-university/meiduo_mall/meiduo_mall/apps/areas/views.py", line 80, in post
+    count = request.user.adresses.count()
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/utils/functional.py", line 239, in inner
+    return func(self._wrapped, *args)
+AttributeError: 'User' object has no attribute 'adresses'
+ERROR 2019-07-17 17:38:47,657 basehttp 124 "POST /addresses/create/ HTTP/1.1" 500 95209
+ERROR 2019-07-17 17:38:47,744 basehttp 124 "POST /addresses/create/ HTTP/1.1" 500 95210
+ERROR 2019-07-17 17:38:47,750 exception 135 Internal Server Error: /addresses/create/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/my-university/meiduo_mall/meiduo_mall/apps/areas/views.py", line 80, in post
+    count = request.user.adresses.count()
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/utils/functional.py", line 239, in inner
+    return func(self._wrapped, *args)
+AttributeError: 'User' object has no attribute 'adresses'
+ERROR 2019-07-17 17:38:47,923 exception 135 Internal Server Error: /addresses/create/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/my-university/meiduo_mall/meiduo_mall/apps/areas/views.py", line 80, in post
+    count = request.user.adresses.count()
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/utils/functional.py", line 239, in inner
+    return func(self._wrapped, *args)
+AttributeError: 'User' object has no attribute 'adresses'
+ERROR 2019-07-17 17:38:47,953 basehttp 124 "POST /addresses/create/ HTTP/1.1" 500 95210
+ERROR 2019-07-17 17:38:48,086 basehttp 124 "POST /addresses/create/ HTTP/1.1" 500 95210
+ERROR 2019-07-17 17:38:48,097 exception 135 Internal Server Error: /addresses/create/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/my-university/meiduo_mall/meiduo_mall/apps/areas/views.py", line 80, in post
+    count = request.user.adresses.count()
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/utils/functional.py", line 239, in inner
+    return func(self._wrapped, *args)
+AttributeError: 'User' object has no attribute 'adresses'
+ERROR 2019-07-17 17:38:48,298 basehttp 124 "POST /addresses/create/ HTTP/1.1" 500 95209
+WARNING 2019-07-17 17:38:52,870 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+ERROR 2019-07-17 17:42:08,435 exception 135 Internal Server Error: /addresses/create/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/my-university/meiduo_mall/meiduo_mall/apps/areas/views.py", line 80, in post
+    count = request.user.adresses.count()
+  File "/home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/django/utils/functional.py", line 239, in inner
+    return func(self._wrapped, *args)
+AttributeError: 'User' object has no attribute 'adresses'
+ERROR 2019-07-17 17:42:08,585 basehttp 124 "POST /addresses/create/ HTTP/1.1" 500 95209
+INFO 2019-07-17 17:50:54,426 basehttp 124 "GET /addresses/ HTTP/1.1" 200 9500
+INFO 2019-07-17 17:50:54,463 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-07-17 17:50:54,468 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-07-17 17:50:54,500 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO 2019-07-17 17:50:54,507 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-07-17 17:50:54,511 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-07-17 17:50:54,521 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-07-17 17:50:54,564 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-07-17 17:50:54,568 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-07-17 17:50:54,614 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-07-17 17:50:55,025 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-07-17 17:51:11,868 basehttp 124 "GET /areas/410000/ HTTP/1.1" 200 979
+INFO 2019-07-17 17:51:15,622 basehttp 124 "GET /areas/411200/ HTTP/1.1" 200 379
+INFO 2019-07-17 17:51:58,040 basehttp 124 "POST /addresses/create/ HTTP/1.1" 200 238
+INFO 2019-07-17 17:51:58,146 basehttp 124 "GET /addresses/ HTTP/1.1" 200 9500
+INFO 2019-07-17 17:51:58,196 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-07-17 17:51:58,200 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-07-17 17:51:58,202 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO 2019-07-17 17:51:58,239 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-07-17 17:51:58,248 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-07-17 17:51:58,280 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-07-17 17:51:58,298 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-07-17 17:51:58,299 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-07-17 17:51:58,318 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-07-17 17:51:58,660 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
