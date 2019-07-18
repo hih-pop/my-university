@@ -16149,3 +16149,13 @@ Traceback (most recent call last):
     raise TemplateDoesNotExist(template_name, chain=chain)
 django.template.exceptions.TemplateDoesNotExist: user_senter_pass
 ERROR 2019-07-18 13:54:19,162 basehttp 124 "POST /password/ HTTP/1.1" 500 114816
+INFO 2019-07-18 14:35:32,120 basehttp 124 "GET / HTTP/1.1" 200 24777
+INFO 2019-07-18 14:35:32,271 basehttp 124 "GET /static/js/host.js/ HTTP/1.1" 200 80
+WARNING 2019-07-18 14:35:32,913 basehttp 124 "GET /static/css/images/icons.png HTTP/1.1" 404 1673
+WARNING 2019-07-18 14:35:34,923 base 152 Not Found: /carts/simple/
+WARNING 2019-07-18 14:35:35,020 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 5671
+INFO 2019-07-18 14:35:37,915 basehttp 124 "GET /logout/ HTTP/1.1" 302 0
+INFO 2019-07-18 14:35:37,936 basehttp 124 "GET / HTTP/1.1" 200 24777
+WARNING 2019-07-18 14:35:38,447 basehttp 124 "GET /static/css/images/icons.png HTTP/1.1" 404 1673
+WARNING 2019-07-18 14:35:39,122 base 152 Not Found: /carts/simple/
+WARNING 2019-07-18 14:35:39,125 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 5671
