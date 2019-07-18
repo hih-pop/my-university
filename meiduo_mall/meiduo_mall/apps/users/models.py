@@ -25,8 +25,8 @@ class User(AbstractUser):
         db_table = 'tb_users'
         verbose_name = '用户'
         verbose_name_plural = verbose_name
-    def __str__(self):
-        return self.username
+    # def __str__(self):
+    #     return self.username
 
 
     def generate_verify_email_url(self):

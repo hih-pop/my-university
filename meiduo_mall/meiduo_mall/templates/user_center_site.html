@@ -57,56 +57,44 @@
         <div class="left_menu_con clearfix">
             <h3>用户中心</h3>
             <ul>
-                <li><a href="user_center_info.html">· 个人信息</a></li>
+                <li><a href="{{ url('users:info') }}">· 个人信息</a></li>
                 <li><a href="../static/user_center_order.html">· 全部订单</a></li>
-                <li><a href="user_center_site.html" class="active">· 收货地址</a></li>
-                <li><a href="../static/user_center_pass.html">· 修改密码</a></li>
+                <li><a href="{{ url('users:addresses') }}" class="active">· 收货地址</a></li>
+                <li><a href="{{ url('users:pass') }}" >· 修改密码</a></li>
             </ul>
         </div>
         <div class="right_content clearfix">
             <div class="site_top_con">
-                <a @click="show_add_site">新增收货地址</a>
-                <span>你已创建了<b>2</b>个收货地址，最多可创建<b>20</b>个</span>
-            </div>
-            <div class="site_con">
-                <div class="site_title">
-                    <h3>张大山A 北京</h3>
-                    <a href="javascript:;" class="edit_icon"></a>
-                    <em>默认地址</em>
-                    <span class="del_site">×</span>
-                </div>
-                <ul class="site_list">
-                    <li><span>收货人：</span><b>张大山</b></li>
-                    <li><span>所在地区：</span><b>北京昌平区六环内</b></li>
-                    <li><span>地址：</span><b>昌平区天通苑北二区36栋</b></li>
-                    <li><span>手机：</span><b>188****0001</b></li>
-                    <li><span>固定电话：</span><b>78912345</b></li>
-                    <li><span>电子邮箱：</span><b>dashan@126.com</b></li>
-                </ul>
-                <div class="down_btn">
-                    <a href="javascript:;" class="edit_icon">编辑</a>
-                </div>
-            </div>
-
-            <div class="site_con">
-                <div class="site_title">
-                    <h3>张大山 北京</h3>
-                    <a href="javascript:;" class="edit_icon"></a>
-                    <span class="del_site">×</span>
-                </div>
-                <ul class="site_list">
-                    <li><span>收货人：</span><b>张大山</b></li>
-                    <li><span>所在地区：</span><b>北京昌平区六环内</b></li>
-                    <li><span>地址：</span><b>昌平区天通苑北二区36栋</b></li>
-                    <li><span>手机：</span><b>188****003</b></li>
-                    <li><span>固定电话：</span><b>78912345</b></li>
-                    <li><span>电子邮箱：</span><b>dashan@126.com</b></li>
-                </ul>
-                <div class="down_btn">
-                    <a href="javascript:;" class="set_default">设为默认</a>
-                    <a href="javascript:;" class="edit_icon">编辑</a>
-                </div>
-            </div>
+        <a @click="show_add_site">新增收货地址</a>
+        <span>你已创建了<b>[[ addresses.length ]]</b>个收货地址，最多可创建<b>20</b>个</span>
+    </div>
+    <div class="site_con" v-for="(address, index) in addresses">
+        <div class="site_title">
+    <div v-if="edit_title_index===index">
+        <input v-model="input_title" type="text" name="">
+        <input @click="save_title(index)" type="button" name="" value="保 存">
+        <input @click="cancel_title(index)" type="reset" name="" value="取 消">
+    </div>
+    <div>
+        <h3>[[ address.title ]]</h3>
+        <a @click="show_edit_title(index)" class="edit_title"></a>
+    </div>
+    <em v-if="address.id===default_address_id">默认地址</em>
+    <span @click="delete_address(index)">×</span>
+</div>
+        <ul class="site_list">
+            <li><span>收货人：</span><b>[[ address.receiver ]]</b></li>
+            <li><span>所在地区：</span><b>[[ address.province ]] [[address.city]] [[ address.district ]]</b></li>
+            <li><span>地址：</span><b>[[ address.place ]]</b></li>
+            <li><span>手机：</span><b>[[ address.mobile ]]</b></li>
+            <li><span>固定电话：</span><b>[[ address.tel ]]</b></li>
+            <li><span>电子邮箱：</span><b>[[ address.email ]]</b></li>
+        </ul>
+        <div class="down_btn">
+            <a v-if="address.id!=default_address_id" @click="set_default(index)">设为默认</a>
+            <a @click="show_edit_site(index)" class="edit_icon">编辑</a>
+        </div>
+    </div>
         </div>
     </div>
     <div class="footer">
@@ -123,11 +111,12 @@
         <p>电话：010-****888 京ICP备*******8号</p>
     </div>
 
- <div class="pop_con" v-show="is_show_edit">
+    <div class="pop_con" v-show="is_show_edit">
         <div class="site_con site_pop">
                 <div class="site_pop_title">
                     <h3 v-if="editing_address_index">编辑收货地址</h3>
                     <h3 v-else>新增收货地址</h3>
+
                     <a @click="is_show_edit=false">×</a>
                 </div>
                 <form>
@@ -137,17 +126,17 @@
                         <span v-show="error_receiver" class="receiver_error">请填写收件人</span>
                     </div>
                     <div class="form_group">
-                        <label>*所在地区：</label>
-                        <select v-model="form_address.province_id">
-                            <option v-for="province in provinces" :value="province.id">[[ province.name ]]</option>
-                        </select>
-                        <select v-model="form_address.city_id">
-                            <option v-for="city in cities" :value="city.id">[[ city.name ]]</option>
-                        </select>
-                        <select v-model="form_address.district_id">
-                            <option v-for="district in districts" :value="district.id">[[ district.name ]]</option>
-                        </select>
-                    </div>
+    <label>*所在地区：</label>
+    <select v-model="form_address.province_id">
+        <option v-for="province in provinces" :value="province.id">[[ province.name ]]</option>
+    </select>
+    <select v-model="form_address.city_id">
+        <option v-for="city in cities" :value="city.id">[[ city.name ]]</option>
+    </select>
+    <select v-model="form_address.district_id">
+        <option v-for="district in districts" :value="district.id">[[ district.name ]]</option>
+    </select>
+</div>
                     <div class="form_group">
                         <label>*详细地址：</label>
                         <input v-model="form_address.place" @blur="check_place" type="text" class="place">
@@ -175,6 +164,7 @@
         <div class="mask"></div>
     </div>
 
+
     <div class="pop_con2">
         <div class="confirm_pop">
             <div class="confirm_pop_title">
@@ -188,6 +178,10 @@
         <div class="mask"></div>
     </div>
 </div>
+<script type="text/javascript">
+    let addresses = {{ addresses | safe }};
+    let default_address_id = {{ default_address_id }};
+</script>
 <script type="text/javascript" src="{{ static('js/common.js') }}"></script>
 <script type="text/javascript" src="{{ static('js/user_center_site.js') }}"></script>
 </body>
